@@ -1,7 +1,0 @@
----
-title: "Papers by Brian Weatherson"
-site: distill::distill_website
-listing: posts
-preview: IMG_4788.jpeg
----
-
