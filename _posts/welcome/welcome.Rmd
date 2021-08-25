@@ -8,6 +8,10 @@ author:
     affiliation: University of Michigan
     affiliation_url: https://lsa.umich.edu/philosophy
 date: 08-24-2021
+bibliography: ../../../articles/Rbib.bib
+preview: angell_phil.jpg
+categories:
+  - syllabus
 output:
   distill::distill_article:
     self_contained: false
@@ -17,6 +21,9 @@ output:
 <h1>Course Description</h1>
 <p>This course has two parts. The first part concerns philosophical work on the nature of thick concepts, and in particular whether the existence of these thick concepts poses a threat to the idea that there is a fact/value distinction. The second part of the course concerns particular thick concepts, with a special focus on those that are relevant to both ethics and epistemology.
 </div>
+<aside>
+Photo by [VasenkaPhotography](https://www.flickr.com/photos/40774255@N07) via [Creative Commons](https://search.creativecommons.org/photos/f2a457a8-4e72-4792-b3f5-7f19c45d655e).
+</aside>
 <div id="canvas" class="section level1">
 <h1>Canvas</h1>
 <p>There is a Canvas site for this course, which can be accessed from <a href="https://canvas.umich.edu" class="uri">https://canvas.umich.edu</a>. Course documents (syllabus, lecture notes, assignments) will be available from this site. Please make sure that you can access this site. Consult the site regularly for announcements, including changes to the course schedule. And there are many tools on the site to communicate with each other, and with me.
@@ -45,9 +52,7 @@ output:
 <li>Write one short paper (about 10-12 pages, or about 3000 words) on one of the topics we discuss in the course.</li>
 </ol>
 <p>The weeklies, and the short paper, may be co-authored. (I don’t know what it would be to co-author a question, though you should give credit to someone if the question came out of discussions with them.)
-</div>
-<div id="summary-of-grading-system" class="section level1">
-<h1>Summary of Grading System</h1>
+<h3>Summary of Grading System</h3>
 <ol style="list-style-type: decimal">
 <li>Participation in discussion boards and online classes - 20%</li>
 <li>Weeklies - 4 by 10% = 40%</li>

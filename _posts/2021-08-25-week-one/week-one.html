@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Week One</title>
+
+  <meta property="description" itemprop="description" content="I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore&#39;s Principia Ethica."/>
+
+
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-08-30"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-08-30"/>
+  <meta name="article:author" content="Brian Weatherson"/>
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Week One"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore&#39;s Principia Ethica."/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Week One"/>
+  <meta property="twitter:description" content="I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore&#39;s Principia Ethica."/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=Moore’s Moral Philosophy;citation_publication_date=2021;citation_publisher=https://plato.stanford.edu/archives/sum2021/entries/moore-moral/; Metaphysics Research Lab, Stanford University;citation_author=Thomas Hurka"/>
+  <meta name="citation_reference" content="citation_title=Blitzed: Drugs in the third reich;citation_publication_date=2016;citation_publisher=Mariner Books;citation_author=Norman Ohler"/>
+  <meta name="citation_reference" content="citation_title=The sovereignty of good;citation_publication_date=1970;citation_publisher=Routledge; Kegan Paul;citation_author=Iris Murdoch"/>
+  <meta name="citation_reference" content="citation_title=Thick evaluation;citation_publication_date=2018;citation_publisher=Oxford University Press;citation_author=Simon Kirchin"/>
+  <meta name="citation_reference" content="citation_title=Say nothing: A true story of murder and memory in northern ireland;citation_publication_date=2019;citation_publisher=Doubleday;citation_author=Patrick Radden Keefe"/>
+  <meta name="citation_reference" content="citation_title=Direction of fit;citation_publication_date=1992;citation_volume=101;citation_doi=10.1093/mind/101.401.59;citation_author=I. L. Humberstone"/>
+  <meta name="citation_reference" content="citation_title=Intention;citation_publication_date=1957;citation_publisher=Basil Blackwell;citation_author=Elizabeth Anscombe"/>
+  <meta name="citation_reference" content="citation_title=The lewd, the rude and the nasty: A study of thick concepts in ethics;citation_publication_date=2013;citation_publisher=Oxford University Press;citation_author=Pekka Väyrynen"/>
+  <meta name="citation_reference" content="citation_title=Ethics and the limits of philosophy;citation_publication_date=1985;citation_publisher=Routledge;citation_author=Bernard Williams"/>
+  <meta name="citation_reference" content="citation_title=Twelve who ruled;citation_publication_date=1941;citation_publisher=Princeton University Press;citation_author=R. R. Palmer"/>
+  <meta name="citation_reference" content="citation_title=Normative externalism;citation_publication_date=2019;citation_publisher=Oxford University Press;citation_author=Brian Weatherson"/>
+  <meta name="citation_reference" content="citation_title=Dispositional theories of value;citation_publication_date=1989;citation_volume=63;citation_doi=10.1093/aristoteliansupp/63.1.89;citation_author=David Lewis"/>
+  <meta name="citation_reference" content="citation_title=Writing the book of the world;citation_publication_date=2011;citation_publisher=Oxford University Press;citation_author=Theodore Sider"/>
+  <meta name="citation_reference" content="citation_title=Language, truth and logic.;citation_publication_date=1936;citation_publisher=Gollantz.;citation_author=Alfred Ayer"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","bibliography","preview","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Week One"]},{"type":"character","attributes":{},"value":["I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore's Principia Ethica.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Brian Weatherson"]},{"type":"character","attributes":{},"value":["http://brian.weatherson.org"]},{"type":"character","attributes":{},"value":["University of Michigan"]},{"type":"character","attributes":{},"value":["https://lsa.umich.edu/philosophy"]}]}]},{"type":"character","attributes":{},"value":["08-30-2021"]},{"type":"character","attributes":{},"value":["../../../articles/Rbib.bib"]},{"type":"character","attributes":{},"value":["moore.jpg"]},{"type":"character","attributes":{},"value":["descriptive equivalence","separation","non-cognitivism","moral motivation","open question argument"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["anscombe.jpg","atlee.jpg","moore.jpg","murdoch.jpg","pekka.jpg","road.jpg","robespierre.jpg","velvet.jpg","week-one_files/anchor-4.2.2/anchor.min.js","week-one_files/bowser-1.9.3/bowser.min.js","week-one_files/distill-2.2.21/template.v2.js","week-one_files/header-attrs-2.10/header-attrs.js","week-one_files/jquery-1.11.3/jquery.min.js","week-one_files/popper-2.6.0/popper.min.js","week-one_files/tippy-6.2.7/tippy-bundle.umd.min.js","week-one_files/tippy-6.2.7/tippy-light-border.css","week-one_files/tippy-6.2.7/tippy.css","week-one_files/tippy-6.2.7/tippy.umd.min.js","week-one_files/webcomponents-2.0.0/webcomponents.js","williams.jpg"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="week-one_files/header-attrs-2.10/header-attrs.js"></script>
+  <script src="week-one_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="week-one_files/popper-2.6.0/popper.min.js"></script>
+  <link href="week-one_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="week-one_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="week-one_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="week-one_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="week-one_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="week-one_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="week-one_files/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Week One","description":"I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore's Principia Ethica.","authors":[{"author":"Brian Weatherson","authorURL":"http://brian.weatherson.org","affiliation":"University of Michigan","affiliationURL":"https://lsa.umich.edu/philosophy","orcidID":""}],"publishedDate":"2021-08-30T00:00:00.000+00:00","citationText":"Weatherson, 2021"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Week One</h1>
+<!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">descriptive equivalence</div>
+<div class="dt=tag">separation</div>
+<div class="dt=tag">non-cognitivism</div>
+<div class="dt=tag">moral motivation</div>
+<div class="dt=tag">open question argument</div>
+</div>
+<!--/radix_placeholder_categories-->
+<p><p>I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore’s Principia Ethica.</p></p>
+</div>
+
+<div class="d-byline">
+  Brian Weatherson <a href="http://brian.weatherson.org" class="uri">http://brian.weatherson.org</a> (University of Michigan)<a href="https://lsa.umich.edu/philosophy" class="uri">https://lsa.umich.edu/philosophy</a>
+  
+<br/>08-30-2021
+</div>
+
+<div class="d-article">
+<h3 id="introduction">Introduction</h3>
+<p>Like many issues in philosophy, even saying what the debate about thick concepts or terms is about requires taking sides on a number of disputed philosophical questions. Rather than do that, I’ll follow common practice and start by just pointing out various examples. I’ll list terms here because it’s easier to list them than to list concepts, though our interest here is if anything more on the concepts than the terms.</p>
+<p>So start by considering the words in these two lists.</p>
+<ul>
+<li>Honest, Fair, Brave, Friendly, Generous, Tactful</li>
+<li>Wicked, Cowardly, Rude, Nasty, Selfish, Cruel</li>
+</ul>
+<p>We will mostly recognise the first as terms of approval, even as distinctively moral kinds of approval, and the second as terms of disapproval. But that kind of boo/hooray doesn’t exhaust what is typically communicated by the terms.</p>
+<p>It is perfectly consistent to say that something was good but not tactful. It may even be consistent to say that it was tactful but not good; let’s come back to that. What matters for now is that saying something is tactful isn’t just to express approval of it; it’s to approve of it in a particular respect. And if the thing doesn’t have that respect, then it isn’t tactful.</p>
+<p>To take a very topical example, it would be very strange to describe the withdrawl of US troops from Afghanistan as tactful. If you disapprove of the withdrawl, then sure that’s easy to explain; you don’t like using positive terms to describe something you disapprove of. But even if you do approve of it, you might still think that while the withdrawl was good, it wasn’t good in the way that tactful things are good. You might think that the US actions were not tactful, and this is for broadly speaking descriptive rather than evaluative reasons.</p>
+<p>The terms on these two lists are related to something like moral or ethical evaluation. But really for any kind of evaluation we can think of terms that seem to have these evaluative and descriptive aspects. So think of all of these broadly aesthetic terms.</p>
+<ul>
+<li>Beautiful, Sublime, Stylish, Elegant, Balanced, Delicate</li>
+<li>Garish, Messy, Crude, Ugly</li>
+</ul>
+<p>The first group seem more or less positive, the second more or less negative. But they don’t just have these evaluative senses; they seem to have descriptive aspects to them. One can like, and approve of, a piece of music without thinking it beautiful. (How much of the Velvet Underground’s first album is beautiful? How much does that matter for how good the album is? Can something have a beautiful taste or smell? I don’t think so; a paper plane might look beautiful, but can it taste beautiful?) And the other terms are even more contentful descriptively.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<aside>
+<figure>
+<img src="velvet.jpg" style="width:100.0%" alt="The album that launched 1000 bands" /><figcaption aria-hidden="true">The album that launched 1000 bands</figcaption>
+</figure>
+</aside>
+<p>We can do the same thing for evaluations to do with rationality, whether it is epistemic or practical.</p>
+<ul>
+<li>Shrewd, Open-Minded, Humble, Insightful, Perceptive</li>
+<li>Gullible, Stubborn, Shallow, Lazy</li>
+</ul>
+<p>We’re going to cover epistemology a lot more in this course; let’s leave it there for now.</p>
+<p>So far I’ve been dividing up the terms into the good ’uns and the wrong ’uns, but one thing that is super important is that there are plenty of terms that are nowhere near this easy to classify. The main book for this course, Pekka Vayrynen’s <em>The Lewd, The Rude and the Nasty</em> <span class="citation" data-cites="Vayrynen2013">(<a href="#ref-Vayrynen2013" role="doc-biblioref">Väyrynen 2013</a>)</span>, makes these terms the centerpiece of the main argument. So let’s list a few contentious ones already.</p>
+<aside>
+<figure>
+<img src="pekka.jpg" style="width:100.0%" alt="Pekka Väyrynen" /><figcaption aria-hidden="true">Pekka Väyrynen</figcaption>
+</figure>
+</aside>
+<ul>
+<li>Lewd, Chaste, Blasphemous, Sinful</li>
+</ul>
+<p>The idea that Vayrynen wants to build up is that these terms encode a moral system that we might well want to reject. Oddly, although Vayrynen wants to disagree with Bernard Williams <span class="citation" data-cites="Williams1985">(<a href="#ref-Williams1985" role="doc-biblioref">1985</a>)</span> about approximately everything to do with these thick terms, the possibility of such terms is also central to Williams’s story. That’s because Williams thinks that these terms are most at home in particular moral systems that need not be universally shared. One of his aims on getting us to focus on thick terms is to make moral relativism more appealing. Different cultures use different thick terms, but they are still using moral theories when they do so. But these are different theories, so of course the terms from other systems will strike us as defective in some way or other.</p>
+<aside>
+<figure>
+<img src="williams.jpg" style="width:100.0%" alt="Bernard Williams" /><figcaption aria-hidden="true">Bernard Williams</figcaption>
+</figure>
+</aside>
+<p>There are three more contentious terms that I want to spend a little time on before we move on.</p>
+<p>One is really a class of terms: slurs. These seem to also have descriptive and evaluative components. If you call someone a bogan or a chav you’re probably insulting them.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> But you’re also making a descriptive claim, one that could be wrong. Donald Trump, for instance, is neither a bogan nor a chav, even if much of his sales pitch is targeted at people who might well fall into one or both of these categories. And this seems to be the general case with slurs; they have both descriptive and evaluative elements. But for most slurs, maybe including ‘bogan’ and ‘chav,’ the evaluative aspect is based in a bad moral theory. This is most obvious for the most obvious racial slurs, but it’s kind of true across the board. This isn’t a seminar on slurs, but slurs will be often in the background.</p>
+<p>The second pair, which we will spend a lot of time on, is ‘humble’ and ‘modest.’ I’m not really going to separate these two, though maybe if it’s interesting enough we can. What I will spend a lot of time on is whether these are positive terms at all, and if so how they are. There’s that old line, sometimes attributed to Winston Churchill, about a modest man with much to be modest about, that gets at why you might worry about these being positive.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> And we’ll see in the philosophical theories of them, it’s very hard to come up with stories about humility and modesty that make them unambiguously positive.</p>
+<aside>
+<figure>
+<img src="atlee.jpg" style="width:100.0%" alt="A modest man" /><figcaption aria-hidden="true">A modest man</figcaption>
+</figure>
+</aside>
+<p>The third kind of case I want to think about, and really just to flag, is that with a strange enough moral theory, almost any term can be positive. Think about ‘selfish’ as used by a devotee of Ayn Rand. This is going to be more grist for the view that Vayrynen pushes, that these terms are not actually evaluative at all, just descriptive. We’ll spend enough time on that in later weeks; I’m just flagging it now.</p>
+<p>As well as the contentious terms, we should also think about the terms that are in a sense primarily descriptive, but which one could object to on evaluative grounds. Here are some examples, which will be relevant as we go along.</p>
+<ul>
+<li>Murderer, Thief, Liar</li>
+<li>Footballer, Artist, Philosopher</li>
+<li>Joke, Artwork, Song</li>
+</ul>
+<p>The first three rely not just on something happening, e.g., some object being acquired, but on an evaluation of that happening, e.g., that the acquisition was of something a different person had a claim to. The second three rely on at least a minimal standard of quality being met. Whether a teenager is a footballer depends not just on whether they kick a ball around, but on how well they do it. There are bad footballers, but if you’re bad enough, you’re no longer a footballer. And the same goes for the last category. A bad enough joke isn’t actually a joke.</p>
+<p>If you think of thick/thin as a spectrum, and I think it’s more or less a consensus now that you should, then these terms are at the opposite end from terms like ‘wicked,’ ‘intelligent,’ ‘beautiful,’ and other terms that don’t tell you very much about the descriptive attributes of the thing under discussion. But they still have many things in common with other thick terms, and it’s worth remembering their existence when we consider theories of thick terms.</p>
+<p>One last introductory point that will be very relevant for the second half of the course. Most of these terms can be applied either to token actions/thoughts/intentions, or to agents as temporally extended beings. But, at least intuitively, they seem to apply in the first instance to agents, not to actions. That’s to say, at least intuitively the following theories seem like they are on the right track to me.</p>
+<ul>
+<li>For someone to be a good person just is for their actions (or perhaps intentions) to be good.</li>
+<li>For something to be a generous action (or intention) just is for it to be the kind of thing a generous person would do.</li>
+</ul>
+<p>Focussing on these terms, or concepts, draws our moral attention to people, in all their messy complexity, and away from individual actions or thoughts. And maybe that’s a very good thing. Whether or not it is, it’s quite a momentous thing, and it’s something we should pay attention do before jumping ahead.</p>
+<h3 id="puzzles-about-definition">Puzzles about Definition</h3>
+<p>So far I’ve I ostended over 30 terms I’ve called thick terms, as well as noting that the class includes slurs, so you can probably add that many more again to the class off the top of your head.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> It would be good at this point to have a neat definition of our subject matter, to say what it is for something to be a thick term.</p>
+<p>Unfortunately, that isn’t going to happen. Any proposed definition will involve way too much theory. People who disagree with the theory can more-or-less agree on the existence and rough extension of the distinction we’re setting out. So the definition of the distinction can’t be in these theoretically contentious terms.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>For instance, you might borrow the venerable fact/value distinction and say that a thick term is one that has both factual and evaluative components. To say that Gen is a thief is to say that he brings things into his proximity, factual, and that he shouldn’t do this, evaluative. But this is wrong for at least four separate reasons.</p>
+<ol type="1">
+<li>If you’re a moral realist, you’ll think it is a fact that it is wrong for Gen to bring these things that belong to other people into his proximity.</li>
+<li>This way of putting it assumes that we understand what it is for terms to be evaluative, and indeed that terms are evaluative, and both of these are contentious. (Note that <span class="citation" data-cites="Kirchin2017"><a href="#ref-Kirchin2017" role="doc-biblioref">Kirchin</a> (<a href="#ref-Kirchin2017" role="doc-biblioref">2018</a>)</span> thinks that a big part of what’s wrong with the literature is that we’ve misunderstood how terms are evaluative.)</li>
+<li>This way of putting it assumes something like Separability; the idea that thick terms have two different parts, one evaluative and one ‘factual.’ And that’s not just contentious; it’s mostly taken to be false.</li>
+<li>And the whole setup assumes a fact/value distinction - and the reason these terms were first made salient in philosophy was to undermine the very existence of that distinction. Much more on this to come.</li>
+</ol>
+<p><span class="citation" data-cites="Williams1985"><a href="#ref-Williams1985" role="doc-biblioref">Williams</a> (<a href="#ref-Williams1985" role="doc-biblioref">1985</a>)</span> goes a different way. He says that the distinctive thing about these terms is that they are both ‘world-guided’ and ‘action-guiding.’ I take it he’s picking up here on something like the idea of mental states having a ‘direction of fit’ from <span class="citation" data-cites="Anscombe1957"><a href="#ref-Anscombe1957" role="doc-biblioref">Anscombe</a> (<a href="#ref-Anscombe1957" role="doc-biblioref">1957</a>)</span>.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. We want both our beliefs and our desires to have true contents. But what differs between beliefs and desires, at least in paradigm cases, is how we react if they don’t. If our beliefs have false contents, we change the beliefs. If our desires have false contents, we change the world. The world guides our beliefs, and our desires guide our actions. Or at least that’s the simple case; our attention will be on the cases that are less simple. To hold that Gen is a thief, on this picture, is to be in a state that should be guided by the world - it should be a reaction to Gen bringing certain kinds of things into his proximity - and should guide action - e.g., by punishing him. (Or, I guess more likely, using better locks when he’s around.)</p>
+<aside>
+<figure>
+<img src="anscombe.jpg" style="width:100.0%" alt="Elizabeth Anscombe" /><figcaption aria-hidden="true">Elizabeth Anscombe</figcaption>
+</figure>
+</aside>
+<p>But this won’t work either, again for several reasons.</p>
+<ol type="1">
+<li>Some moral realists, most notably I guess <span class="citation" data-cites="Murdoch1970"><a href="#ref-Murdoch1970" role="doc-biblioref">Murdoch</a> (<a href="#ref-Murdoch1970" role="doc-biblioref">1970</a>)</span>, insist that moral attitudes are world-guided.</li>
+<li>Some philosophers, including me, deny that moral attitudes are (properly) action-guiding.</li>
+</ol>
+<p>I think we’re best off just sticking with the lists.</p>
+<h3 id="descriptive-equivalence">Descriptive Equivalence</h3>
+<p>I want to flag a question for now because we’re going to come back to it a lot in what follows. Let’s say you’ve got one of these sorta-descriptive/sorta-evaluative terms. And for some reason you want to factor out the descriptive part. Maybe you don’t actually share the views that make the evaluative part make sense. Or maybe you want to explain the term to someone who doesn’t. To make things concrete, maybe you’re trying to explain what a thief is to someone who really doesn’t get property norms, and can’t figure out how they work.</p>
+<aside>
+<figure>
+<img src="murdoch.jpg" style="width:100.0%" alt="Iris Murdoch" /><figcaption aria-hidden="true">Iris Murdoch</figcaption>
+</figure>
+</aside>
+<p>It’s actually kind of hard. Probably the best way to do it would be to try again to explain the moral theory of property - not as something they necessarily should endorse but as something they should understand - and then say that to be a thief is to violate this theory in certain ways. And maybe that could work, though I think it’s going to be tough.</p>
+<p>This wasn’t much of an argument - we’ll see more thorough arguments in weeks to come - but it suggests the following conclusion.</p>
+<ul>
+<li>There is no term that has the same descriptive meaning as ‘thief,’ but without the moral connotations.</li>
+</ul>
+<p>In the language of thick concepts, there is no <strong>descriptive equivalent</strong> to ‘thief.’ The parallel claim in the slurs literature would be that a particular slur, like ‘bogan,’ has no neutral counterparts. And I suspect both of them are right.</p>
+<p>What would follow if this claim is right? We’ll spend a lot of time on this too. But one thing that you might think follows is that it’s bad news for views that say thick terms can be factorised into a descriptive and an evaluative part. And that in turn would be bad news for theories that require the possibility of such factorisations. It’s time to turn to such theories.</p>
+<h3 id="self-indulgent-interlude">Self-Indulgent Interlude</h3>
+<p>The reason I’m interested in this stuff is that I’m in print defending what sure looks like one of those theories. Now I want to stress that theories like mine are <strong>not</strong> why people have been typically interested in thick concepts. But they are relevant to me, and it’s my seminar, so let’s start.</p>
+<aside>
+<figure>
+<img src="road.jpg" style="width:100.0%" alt="Cover art for Normative Externalism" /><figcaption aria-hidden="true">Cover art for Normative Externalism</figcaption>
+</figure>
+</aside>
+<p>One of the core theses of <em>Normative Externalism</em> <span class="citation" data-cites="Weatherson2019">(<a href="#ref-Weatherson2019" role="doc-biblioref">Weatherson 2019</a>)</span> was that it is not good to be motivated by doing good as such. So I want to contrast these two cases.</p>
+<ul>
+<li>There is a drowning child in the pond. Jill does not want the child to drown, so she jumps in and rescues the child.</li>
+<li>There is a drowning child in the pond. Jack doesn’t care about whether or not children drown, at least under that description. But he does care a lot about doing the right thing, whatever it turns out to be, and he believes (correctly) that right now doing the right thing would be jumping in to rescue the child. So he jumps in and rescues the child.</li>
+</ul>
+<p>I’m committed to the view that what Jill did is much better, morally speaking, than what Jack did. Officially in the book the view is that being motivated by the desire to do the right thing, whatever it is, has no positive moral value. Actually I think something stronger than this - that it’s a vice.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>There is a common argument for the kind of view I have: the Nazi argument. The Nazis were horrible in every respect, yet at least some of them were motivated by a desire to do the right thing - while of course having horrible beliefs about what was right. So the fact that the Nazis were trying to do the right thing - under that very description (or at least its German translation) - isn’t a virtue of theirs. This argument is super sloppy, and I don’t really feel like trying to tidy it up, because I don’t think using Nazis in this kind of debate is helpful. There are messy historical questions about just what kind of motivations different Nazis actually had. And even if we sort those out, how to map Nazi attitudes onto regular categories from moral psychology is a hard and unpleasant question.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>A better argument comes from thinking about terrorist groups, especially groups that have self-consciously moral aims. And within those, especially groups whose ends are ones that we might find basically congenial, however much we disagree with them about means. So in the book I spend a bit of time talking about Jacobins, mostly drawing on the discussion in <span class="citation" data-cites="Palmer1941"><a href="#ref-Palmer1941" role="doc-biblioref">Palmer</a> (<a href="#ref-Palmer1941" role="doc-biblioref">1941</a>)</span>. But I suspect it would have been better to focus as well, or perhaps instead, on IRA terrorists, as discussed in <span class="citation" data-cites="Keefe2018"><a href="#ref-Keefe2018" role="doc-biblioref">Keefe</a> (<a href="#ref-Keefe2018" role="doc-biblioref">2019</a>)</span>. I just don’t think you should look at people murder single parents because of flimsy evidence that they were providing trifling help to the government, and say that “Well, at least they thought they were doing the right thing.” Instead, I think you should see their overarching desire to do the right thing as having removed a very useful guardrail that most of us have on our actions - that little voice Socrates talks about that warns us against doing something so abhorrent.</p>
+<aside>
+<figure>
+<img src="robespierre.jpg" style="width:100.0%" alt="The original terrorist" /><figcaption aria-hidden="true">The original terrorist</figcaption>
+</figure>
+</aside>
+<p>So what I’d really like to say is this. A good action just is one that is driven by good intentions. And good intentions are intentions that are driven by desires to promote descriptively individuated states that are in fact good, while also desiring to avoid (or perhaps prevent) descriptively individuated states that are in fact bad. It’s to be like Jill - to jump in because a child is drowning.</p>
+<p>Now if there was a clear descriptive/evaluative distinction, that would all be fine. I mean, it would still be controversial, but it would at least make sense. But what do we say about someone who…</p>
+<ul>
+<li>did X because it was the only fair thing to do?</li>
+<li>didn’t do X because it would be stealing?</li>
+<li>did X because it was the bravest thing to do?</li>
+<li>didn’t do X because it would be lazy to do it?</li>
+</ul>
+<p>I have views about each of these questions. But I don’t have anything remotely like a theory that produces these verdicts as theorems. So this is why I’m interested in the topic. But it’s not the standard reason. That has to do with anti-realist ethical views.</p>
+<h3 id="the-open-question-argument">The Open Question Argument</h3>
+<p>Moore has been so influential on meta-ethics over the last 120 years that it is easy to place him using familiar language. That’s because the language developed in no small part in response to his work.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<p>Moore is a moral realist. He thinks that moral properties exist, that some things have them and that others don’t. At least in <em>Principia Ethica</em>, he has an extremely anti-relativist form of realism, though that gets at least a bit qualified in later works.</p>
+<p>He is, in the language that Vayrynen uses, a thin centralist. He thinks the key notions in ethics are things like goodness, rightness and what one ought, all things considered, do.</p>
+<p>He is a consequentialist. He thinks that what makes something the right action is that it produces the best consequences. In Rawls’s terminology, he thinks that the good is prior to the right.</p>
+<p>And he is an agent-neutral consequentialist, again at least in <em>Principia Ethica</em>. He thinks that what is absolutely good is prior to what is good for me or for you, if we can even make sense of those notions.</p>
+<p>But he is not in any recognisable sense a utilitarian. He is a value pluralist; he doesn’t think that there is just one thing we should try to maximise. And that one thing is not purely mental. He thinks, anticipating some environmental ethics, that it would be better for the world to be beautiful rather than ugly, even if no one was around to appreciate it. And, famously, he believes in the principle of <strong>organic unity</strong>, or what we might call value holism. The value of a whole is in no sense the sum of the value of the parts.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> I don’t know precisely how we want to use the term ‘utilitarian,’ but I think it probably should be reserved for people who believe at least some of the things that Moore is denying here.</p>
+<aside>
+<figure>
+<img src="moore.jpg" style="width:100.0%" alt="G. E. Moore" /><figcaption aria-hidden="true">G. E. Moore</figcaption>
+</figure>
+</aside>
+<p>And now we get to the most contentious term of all: Moore is a non-naturalist. Just what this means is not easy to say. It does not mean that he thinks goodness is some kind of supernatural property. The way Moore uses words, divine command theories are naturalist. This is one bit of terminology that has not caught on. The simplest thing to say, in modern lingo, is that Moore is an anti-reductionist.</p>
+<p>It’s this anti-reductionism that is meant to be supported by the infamous <strong>open question argument</strong>. Here’s how a modern presentation of the argument might go. We’ll come back to how much Moore says anything quite like this. Consider any proposed reduction of goodness to some descriptive property D. According to the reduction, goodness is D. But we can sensibly say, “That is D, but is it good?” Its goodness might remain an open question for us even after we concede it is D. So goodness is not D. And since D was arbitrary, it follows that goodness isn’t anything else.</p>
+<p>As it stands, there is a simple response to this argument. Who is the ‘we’ who can sensibly ask the open question? It can’t be those who know that goodness is D - the question won’t be open for them. Moore thinks there are no such people, but he can’t take that as a premise; that would make the argument obviously circular. A natural hypothesis is that it is competent users of the language. But now we have the familiar point that competent speakers of the language need not be on top of all reductions. We have a successful reduction of water, it is H<sub>2</sub>O. But for someone who doesn’t know this bit of chemistry, the question “Does this water contain oxygen?” might be an open question. So if you restrict things to people who know that goodness is D, the question is not open, and if you don’t, the openness of the question doesn’t prove anything.</p>
+<p>I think this is a pretty conclusive response to what I was calling the open question argument. But there are at least three reasons to think that at this point we’ve misinterpreted Moore. First, nothing that has been said so far distinguishes ‘good’ from ‘horse.’ In both the argument and reply, you could replace ‘good’ with ‘horse’ and everything else would go through smoothly. Yet whatever else Moore is doing, he is trying to show a way in which ‘good’ is different from ‘horse.’ Second, this makes the argument sound like it really is about meanings of words. And again, Moore is very clear that he doesn’t care about meanings in the ordinary sense. Think, for example, about the parts where he is mocking someone who thinks that the fact that something falls in the extension of a particular English word is a reason to do it. He does talk about definitions, and we’ll have to come back to that, but he isn’t talking about word meanings. Third, there seem to be two arguments in §13, which looks like the key section, and neither of them seem to be the modern presentation of the argument - though both of them eventually get close to it.</p>
+<p>So what is Moore trying to do, if he’s not providing an argument about the meaning of ‘good?’ He is asking what the <strong>metaphysical definition</strong> of goodness is. This idea of there being metaphysical definitions somewhat dropped out of philosophy for a while - it really is the kind of metaphysics that the positivists wanted to be rid of - but you can see it in some contemporary philosophy. I think what Moore is up to here is continuous with the discussions of metaphysical semantics in <em>Writing the Book of the World</em> <span class="citation" data-cites="Sider2012">(<a href="#ref-Sider2012" role="doc-biblioref">Sider 2011</a>)</span>. Moore thinks that the language of the book will include a word much like ‘good,’ but it won’t include a word like ‘horse.’ If you want to really say how things are, you shouldn’t talk about horses; you should talk about horse parts and their arrangement. But you should talk about goodness.</p>
+<p>What then is the argument for that conclusion? It seems on the face of it Moore gives two arguments, one in §13(1), the other in §13(2). And neither I think is the standard open question argument. The argument in §13(1) goes like this.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Let D be an arbitrary proposed definition of goodness; we’ll show it fails.</p>
+<ol type="1">
+<li>It makes sense to ask whether it is D that X is D. E.g., it makes sense to ask whether it is desirable to desire that we desire to desire beauty.</li>
+<li>It does not make sense to ask whether it is good that X is good.</li>
+<li>So goodness is not D.</li>
+</ol>
+<p>Or perhaps the argument is this - I really can’t tell quite what’s going on in premise 2.</p>
+<ol type="1">
+<li>It makes sense to ask whether it is D that X is D. E.g., it makes sense to ask whether it is desirable to desire that we desire to desire beauty.</li>
+<li>Anyone who understands the question of whether it is D that X is D will understand that it is not the same question as whether it is good that X is D.</li>
+<li>So goodness is not D.</li>
+</ol>
+<p>The point is not we might be competent users of a term and not recognise correct metaphysical reductions. That’s an obvious consequence of thinking about ‘horse’ for a minute. Rather, it’s that fully informed users of the terms will recognise the differences between these questions.</p>
+<p>Why believe premise 2 in either case? Here’s where I think Moore gets closest to the standard presentation of the argument. What he really needs is that fully informed speakers of the language of the book of the world will see that there is a difference between <em>It is D that X is D</em> and <em>It is good that X is good</em> / <em>It is good that X is D</em>. Now his opponents think they will not. Who’s right? Well the claims sure seem different to us pretty-well-informed speakers, and maybe that’s evidence that they seem different to fully informed speakers. I’m not sure. In any case, it’s already a bit interesting that the argument is about these claims where D appears twice; I don’t think the standard presentation does that.</p>
+<p>The discussion in §13(2) gets closer to the standard presentation. But it’s very odd. I can’t really tell who the opponent is supposed to be here, and I suspect that’s about to become important. He says in the first sentence that the opponent is the person who says that ‘good’ is meaningless. I think this is the view that ‘good’ doesn’t have a counterpart in the book of the world not because like ‘horse’ it can be reduced, but because like ‘phlogiston’ it wasn’t needed. But I’m super not sure - that’s the person he says he is targeting - but this doesn’t make best sense of what follows.</p>
+<p>So what does follow. Well, let D1, D2, D3, etc be different proposed reductions of goodness that people might have tried back in the previous argument. Then we get the following argument.</p>
+<ol type="1">
+<li>For each Di, it makes sense to ask whether Di is good.</li>
+<li>Each of these questions has something in common.</li>
+<li>If goodness had no meaning, these questions would not make sense, or at least wouldn’t have anything in common.</li>
+<li>So goodness has a meaning.</li>
+</ol>
+<p>Then Moore puts the two parts together. By the second argument, goodness has to appear in the book of the world either directly, as part of the basic language, or indirectly, as something else that gets reduced to it. But by the first argument it can’t appear indirectly. So it must be a fundamental feature of the world. And that’s what the non-naturalist realist wants.</p>
+<p>Now one giant caveat needs to be put on the board here. In both §13(1) and §13(2), the discussion around the argument gets very close to what I’m calling the standard presentation of the open question argument. But ultimately I don’t think that’s the argument. I think the argument is about the non-identity of second-order claims involving D, and the intelligibility of questions about whether D is good. But on the latter part what matters is not the possibility that such a claim is false, as in the standard presentation, but that such a claim is true.</p>
+<p>So that’s Moore. Why is he relevant to our story? Well a lot of philosophers thought that a lot of the arguments he made were successful, but that his conclusion - non-naturalist realism - was unacceptable. So they wanted a way out. And non-cognitivism was advertised as being a way out of the argument.</p>
+<p>If <em>D is good</em> just means <em>Hooray for D!</em>, then you can accept a lot of Moore’s premises without accepting his conclusions. Asking whether it is good that X is D is different to asking whether it is D that X is D. The latter is asking a factual question about the world; the former is asking whether to cheer for a different fact. And asking whether D1, D2 etc are all good does make sense, and the questions do have something in common. They are all questions about what one cheers for - that’s the common factor. And of course this approach handles the standard presentation of the open question argument - which probably does show up in something like this form in <span class="citation" data-cites="Ayer1936"><a href="#ref-Ayer1936" role="doc-biblioref">Ayer</a> (<a href="#ref-Ayer1936" role="doc-biblioref">1936</a>)</span> - just as smoothly. Of course it makes sense to ask <em>X is D, but do I cheer it?</em> for any D.</p>
+<p>So that’s where our story starts. Moore convinced people that a certain kind of reductionist naturalism was a non-starter. Wanting to hold on to ethics, but not at the price of non-naturalism, many philosophers responded by adopting non-cognitivism. But this relied on a heavy-duty fact/value distinction, and seemed to undermine the philosophical significance of moral theorising. And the first significant push back against non-cognitivism came from people who wanted to complicate the fact/value distinction, with thick concepts as their primary weapon for muddying the waters.</p>
+<h3 id="for-next-time">For Next Time</h3>
+<p>There is no class next week for Labor Day. I’m not going to write anything this long for any upcoming class - I didn’t mean this to be this long. But we’ll cover three things.</p>
+<ol type="1">
+<li>Arthur Prior’s objections to Hume’s “No ought from an is” principle.</li>
+<li>Philippa Foot’s discussion in “Moral Arguments,” especially the discussion of rudeness.</li>
+<li>If time, Williams’s introduction of the term ‘thick concepts’ in Chapter 7 of <em>Ethics and the Limits of Philosophy</em>.</li>
+</ol>
+<p>Of these, the priority is point 2; I plan on having us go through that paper pretty carefully. But hopefully we’ll have enough time to say something about Prior and Williams as well.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Anscombe1957" class="csl-entry" role="doc-biblioentry">
+Anscombe, Elizabeth. 1957. <em>Intention</em>. Oxford: Basil Blackwell.
+</div>
+<div id="ref-Ayer1936" class="csl-entry" role="doc-biblioentry">
+Ayer, Alfred. 1936. <em>Language, Truth and Logic.</em> London: Gollantz.
+</div>
+<div id="ref-Humberstone1992" class="csl-entry" role="doc-biblioentry">
+Humberstone, I. L. 1992. <span>“Direction of Fit.”</span> <em>Mind</em> 101 (401): 59–83. <a href="https://doi.org/10.1093/mind/101.401.59">https://doi.org/10.1093/mind/101.401.59</a>.
+</div>
+<div id="ref-Hurka2021" class="csl-entry" role="doc-biblioentry">
+Hurka, Thomas. 2021. <span>“<span class="nocase">Moore’s Moral Philosophy</span>.”</span> In <em>The <span>Stanford</span> Encyclopedia of Philosophy</em>, edited by Edward N. Zalta, <span>S</span>ummer 2021. <a href="https://plato.stanford.edu/archives/sum2021/entries/moore-moral/">https://plato.stanford.edu/archives/sum2021/entries/moore-moral/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-Keefe2018" class="csl-entry" role="doc-biblioentry">
+Keefe, Patrick Radden. 2019. <em>Say Nothing: A True Story of Murder and Memory in Northern Ireland</em>. New York: Doubleday.
+</div>
+<div id="ref-Kirchin2017" class="csl-entry" role="doc-biblioentry">
+Kirchin, Simon. 2018. <em>Thick Evaluation</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Lewis1989b" class="csl-entry" role="doc-biblioentry">
+Lewis, David. 1989. <span>“Dispositional Theories of Value.”</span> <em>Aristotelian Society Supplementary Volume</em> 63 (1): 113–37. <a href="https://doi.org/10.1093/aristoteliansupp/63.1.89">https://doi.org/10.1093/aristoteliansupp/63.1.89</a>.
+</div>
+<div id="ref-Murdoch1970" class="csl-entry" role="doc-biblioentry">
+Murdoch, Iris. 1970. <em>The Sovereignty of Good</em>. London: Routledge; Kegan Paul.
+</div>
+<div id="ref-Ohler2016" class="csl-entry" role="doc-biblioentry">
+Ohler, Norman. 2016. <em>Blitzed: Drugs in the Third Reich</em>. New York: Mariner Books.
+</div>
+<div id="ref-Palmer1941" class="csl-entry" role="doc-biblioentry">
+Palmer, R. R. 1941. <em>Twelve Who Ruled</em>. Princeton, NJ: Princeton University Press.
+</div>
+<div id="ref-Sider2012" class="csl-entry" role="doc-biblioentry">
+Sider, Theodore. 2011. <em>Writing the Book of the World</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Vayrynen2013" class="csl-entry" role="doc-biblioentry">
+Väyrynen, Pekka. 2013. <em>The Lewd, the Rude and the Nasty: A Study of Thick Concepts in Ethics</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Weatherson2019" class="csl-entry" role="doc-biblioentry">
+Weatherson, Brian. 2019. <em>Normative Externalism</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Williams1985" class="csl-entry" role="doc-biblioentry">
+Williams, Bernard. 1985. <em>Ethics and the Limits of Philosophy</em>. London: Routledge.
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>If this was an aesthetics seminar I’d spend hours at this point asking if there are any terms in aesthetics that are as ‘thin’ as ‘good’ and ‘right.’ But let’s leave that for another day.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>If you don’t know either of these terms, <a href="https://www.urbandictionary.com/define.php?term=bogan">Urban Dictionary</a> might help - though probably the ‘definitions’ there will be just as unintelligible as the terms. Anyway, these are both broadly social slurs aimed at a particular kind of less wealthy person.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Though since the target of the quip is usually said to be the person who was in fact the greatest ever British PM, maybe this example doesn’t show very much.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>How many more might depend on your cultural upbringing; the variety of slurs in circulation seems to vary a lot from place to place.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Is this an open question argument? Maybe! Foreshadowing…<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>See <span class="citation" data-cites="Humberstone1992"><a href="#ref-Humberstone1992" role="doc-biblioref">Humberstone</a> (<a href="#ref-Humberstone1992" role="doc-biblioref">1992</a>)</span> for much more background on this.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>We maybe even have a word for it in English: ‘self-righteousness.’ But whether that’s exactly the right word for this character trait is less interesting to me than whether the trait is a vice<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>The evidence in <span class="citation" data-cites="Ohler2016"><a href="#ref-Ohler2016" role="doc-biblioref">Ohler</a> (<a href="#ref-Ohler2016" role="doc-biblioref">2016</a>)</span> that they were taking all the drugs does not make this task any easier.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>I’m drawing a lot on <span class="citation" data-cites="Hurka2021"><a href="#ref-Hurka2021" role="doc-biblioref">Hurka</a> (<a href="#ref-Hurka2021" role="doc-biblioref">2021</a>)</span>, especially in the first few paragraphs.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>This is implicit in Jevons’s work, but it’s Moore who really makes it central to philosophical discussions of value.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>And note that Moore’s particular example of D involves second-order desires, just like the theory in <span class="citation" data-cites="Lewis1989b"><a href="#ref-Lewis1989b" role="doc-biblioref">Lewis</a> (<a href="#ref-Lewis1989b" role="doc-biblioref">1989</a>)</span>. It’s really so much more contemporary sounding than so much else that was going on at the time.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
