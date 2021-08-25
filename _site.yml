@@ -1,0 +1,25 @@
+name: "640-blog"
+title: "Vices - A Users Guide"
+description: |
+  Vices - A Users Guide
+base_url: http://brian.weatherson.org/640-F21/
+twitter:
+  site: "@bweatherson"
+  creator: "@bweatherson"
+output_dir: "_site"
+theme: brian.css
+output:
+  distill::distill_article:
+    css: brian.css
+    highlight: rstudio
+    toc: true
+navbar:
+  logo: http://brian.weatherson.org/Block_M-Hex.png
+  search: True
+  right:
+    - icon: fa fa-rss
+      href: index.xml
+collections:
+  posts:
+    share: twitter
+    citations: false

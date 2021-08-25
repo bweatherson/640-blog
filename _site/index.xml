@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Vices - A Users Guide</title>
+    <link>http://brian.weatherson.org/640-F21/</link>
+    <atom:link href="http://brian.weatherson.org/640-F21/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Vices - A Users Guide
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Welcome to Vices - A Users Guide</title>
+      <dc:creator>Brian Weatherson</dc:creator>
+      <link>http://brian.weatherson.org/640-F21/posts/welcome</link>
+      <description>This is the syllabus for the course. It includes links to the papers that we will read.</description>
+      <guid>http://brian.weatherson.org/640-F21/posts/welcome</guid>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

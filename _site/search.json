@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "path": "index.html",
+      "title": "Vices - A Users Guide",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-08-24T22:57:16-04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
