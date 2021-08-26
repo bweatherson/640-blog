@@ -19,6 +19,9 @@ categories:
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_depth: 3
+    number_sections: true
 ---
 
 ### Introduction
@@ -152,7 +155,7 @@ In the language of thick concepts, there is no **descriptive equivalent** to 'th
 
 What would follow if this claim is right? We'll spend a lot of time on this too. But one thing that you might think follows is that it's bad news for views that say thick terms can be factorised into a descriptive and an evaluative part. And that in turn would be bad news for theories that require the possibility of such factorisations. It's time to turn to such theories.
 
-### Self-Indulgent Interlude
+### Self-Indulgent Interlude 1: Moral Motivation
 
 The reason I'm interested in this stuff is that I'm in print defending what sure looks like one of those theories. Now I want to stress that theories like mine are **not** why people have been typically interested in thick concepts. But they are relevant to me, and it's my seminar, so let's start.
 
@@ -189,6 +192,44 @@ Now if there was a clear descriptive/evaluative distinction, that would all be f
 - didn't do X because it would be lazy to do it?
 
 I have views about each of these questions. But I don't have anything remotely like a theory that produces these verdicts as theorems. So this is why I'm interested in the topic. But it's not the standard reason. That has to do with anti-realist ethical views.
+
+### Non-Cognitivism and Expressivism
+
+In mid-century England, the dominant meta-ethical view was a kind of anti-realism. This view had two components. Both of them are, I think, best understood comparatively.
+
+One component of the view concerns mental content. We have a rough idea of what it is to believe a descriptive proposition about the world, like that the cat is on the mat.^[Actually, you probably don't want to think too hard about what kind of attitude those folks thought was involved in believing the cat is on the mat. But it's a world-directed notion, in some sense of 'world' and 'directed'] To hold that murder is wrong is not, they think, anything like that. Maybe it's to disapprove of murder. Maybe it's to desire not to murder, or that anyone else murders. Maybe it's also a desire to punish in some ways those that do murder. What it isn't is a belief that this action type, murder, has some moral property, being wrong. And that's because there is no such property.
+
+Given this view about mental content, a view about linguistic content is just about forced. To say that murder is wrong is not to describe the world in any way. Again, don't think too hard about what makes something a description - just that it's what we do when we say that the cat is on the mat. We're not doing that when we say murder is wrong. What are we doing? Well, in the crudest version of the view, more or less the one defended by @Ayer1936, we're saying _Boo murder!_. A moral philosophy talk, properly interpreted, sounds like the crowd at some underperforming football club.^[Sorry I guess to fans of Arsenal/Newcastle/Schalke or whoever is triggered by this analogy.] The view on mental content is **non-cognitivism**, the view that moral attitudes are not cognitive states. The view on linguistic content is **expressivism**, that the role of moral terms is to express these (non-cognitive) states.
+
+These are normally taken to be views in meta-ethics; they aren't moral theories, but views about what moral theory is. And towards the end of the 20th century, the focus of the debate around it turned on technical questions like how moral terms behaved in antecedents of conditionals. Since _If Boo murder!, …_ isn't even grammatical, it's hard to explain what _If murder is wrong,…_ means. 
+
+But in the 1950s, that wasn't the concern. Rather, the concern was that this meta-ethical theory led to bad moral theory. Or, almost as bad, that it led to not actually doing moral theory. Since we shouldn't really spend too much time theorising about what we cheer or boo, we shouldn't have moral theory be a central part of philosophy. Actually put that bluntly that doesn't sound like a great argument. But as a matter of fact normative ethics had fallen in importance, and these kinds of anti-realist views, non-cognitivism and expressivism, had taken hold, and maybe there was a causal connection there.
+
+Now the first big entry of of thick concepts into the philosophical debate comes as a response to this kind of anti-realism. The term 'thick concept' isn't used, but the idea is right there. And it's not attacking anything about the details of one or other account of what non-cognitive state a moral attitude is, or just how moral terms behave in antecedents. It's really a straight up attack on the very idea that there is a boundary between the moral and the descriptive, a boundary whose existence the non-cognitivist needs to presuppose. And this is what you see especially in the work of Philippa Foot -@Foot1958 and Iris Murdoch -@Murdoch1956. We'll spend much more time on these next week, so I'm just going to flag them here.
+
+But why did people have these kinds of anti-realist views in the first place? The simple answer is that it was a response to the arguments that G. E. Moore -@Moore1903 made, and we'll spend the rest of this week looking at those arguments.
+
+### Self-Indulgent Interlude 2: History of Analytic
+
+There is a standard story about the history of analytic philosophy. In this history, logic and philosophy of science play a particularly central role. A lot of the tools that are central to today's philosophy of language are developed over the story, but the lead characters don't care that much about natural language, so the relation between this work and philosophy of language is complicated. But logic and philosophy of science are central to the story.
+
+In the standard story, there are three big figures towering over the field: Frege, Russell, Wittgenstein. Note that two of these wrote in German, and one of them was in a math department not philosophy. Those features are not atypical. Most of the other important figures wrote in German, and several of them would have identified as mathematicians rather than philosophers. So think of the philosophical importance of figures like Hilbert, Gödel, Tarski, Schlick, Carnap, Popper and so on, with Cantor as an important influence if you reach further back.
+
+But while these figures are important, I think this leaves a huge amount out of the story. In particular, it leaves out value theory. In much of the 20th century, value theory had a split role in the university, as you see in the title of Liz Anderson's first book: _Value in Ethics and Economics_ [@Anderson1995]. Very roughly speaking, the more quantitative part of value theory was done in economics, the more qualitative part in philosophy. That was never wholly true, and with the recent rise of formal ethics is less true than before, but it wasn't wholly false for many decades.
+
+In the 19th century though, especially in England and Scotland, there really wasn't a distinction here. The people we now think of as the most important figures in economic thought all had very thorough training in philosophy. And the best philosophers read, and often contributed to, economic thought. 
+
+I think the history of analytic philosophy should include, and arguably start with, some of these philosopher-economists. The most important figures here are probably Jevons (to my mind the first in the tradition we call analytic philosophy), Edgeworth and (though he's a more complicated case) Marshall. 
+
+Why am I including this here? Because the peak of this tradition came with two great philosopher-economists who interacted with Moore, namely Keynes and Ramsey. Keynes's doctoral work was a theory of probability that was designed to respond to some challenges Moore raised, and Ramsey's theory of probability - which is probably still the dominant version in philosophy today - is a response to some issues in Keynes's. There is this rich interaction between philosophy and economics that was lost after World War Two, but which we should understand if we want to know the history of our discipline.
+
+We also have this amazing document of what it was like to do philosophy at the time Moore was writing _Principia Ethica_, Keynes's posthumously published memoir "My Early Beliefs" [@KeynesMEB]. I'm not sure everyone would call it a philosophy paper, but it's my favorite ever philosophy paper, at least to read. I learn a bit more about the time period every time I read it, so I don't want to leave you with the impression that there is only one thing to learn about it. But here's what I want to stress for today.
+
+In the middle of Keynes's paper there is this long list of questions about, as he puts it, mensuration. Some of them feel like how many angels on the head of a pin. But some of them are just what we spend time talking about today. Just to pull out one example, though completely not at random.
+
+>  In valuing the consequences did one assess them at their actual value as it turned out eventually to be, or their probable value at the time? If at their probable value, much evidence as to possible consequences was it one’s duty to collect before applying the calculus?
+
+Now what I want to stress is how unlike this is to everything else that's happening in philosophy at the time. Pick up any philosophy journal and you will find lots of articles about the nature of the Ideal, and very few about duties to collect evidence before action.^[I think that, for example, Bosanquet's "Hedonism Among Idealists" [@Bosanquet1903] is much more representative of the period.] But a lot of what Moore discussed, along with his very devoted followers, seems continuous with what we do today.
 
 ### The Open Question Argument
 
