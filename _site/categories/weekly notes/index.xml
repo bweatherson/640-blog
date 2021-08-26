@@ -10,7 +10,7 @@
     <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Week One</title>
-      <dc:creator>Brian Weatherson</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
       <link>http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one</link>
       <description>I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore's Principia Ethica.</description>
       <category>descriptive equivalence</category>
@@ -21,17 +21,7 @@
       <category>weekly notes</category>
       <guid>http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one</guid>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one/moore.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Welcome to Vices - A Users Guide</title>
-      <dc:creator>Brian Weatherson</dc:creator>
-      <link>http://brian.weatherson.org/640-F21/posts/welcome</link>
-      <description>This is the syllabus for the course. It includes links to the papers that we will read.</description>
-      <category>syllabus</category>
-      <guid>http://brian.weatherson.org/640-F21/posts/welcome</guid>
-      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/welcome/angell_phil.jpg" medium="image" type="image/jpeg"/>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one/moore.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
