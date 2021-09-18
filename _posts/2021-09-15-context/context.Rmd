@@ -1,0 +1,83 @@
+---
+title: "Context"
+description: |
+  Some background relevant to the idea discussed in class that 'rude' is context-sensitive.
+author:
+  - name: Brian Weatherson
+    url: http://brian.weatherson.org
+    affiliation: University of Michigan
+    affiliation_url: https://lsa.umich.edu/philosophy
+date: 09-15-2021
+bibliography: ../../../articles/Rbib.bib
+preview: foot.jpg
+categories:
+  - contextualism
+  - rudeness
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+This is very much not the theme of this course. But it's something that came up and I wanted to talk about it. Because while it might not be completely obvious to everyone taking this course, figuring out precisely how context affected linguistic expressions was kind of the biggest question in academic philosophy for much of the 2000s. We could (and very frequently did!) run semester long classes on just this topic. (My favorite was one that Jeff King ran at Harvard in 2003, which had the striking feature that precisely no one attending it, either teaching or sitting in, was actually from Harvard.) But let's go through the details.
+
+The first thing to note is that ordinary language (and I'm going to use English examples here, but this stuff is literally true of 100% of human languages) have expressions that are sensitive to the context. Let's think about (1).
+
+(1) I read a book.
+
+When I utter (1), the word 'I' picks out Brian. When you utter it, it picks out you. When I utter this at time t, it says I read a book before t. When you utter it at time t*, it says that you read a book before t*. So at least the first two words are sensitive to the context of utterance. Maybe the third and fourth are as well - but let's not go there yet.
+
+Here are a few other things that are kind of obvious, but worth pointing out, about 'I'.
+
+The context it is sensitive to is very fragile - it changes whenever the identity of the speaker changes. That's maybe, probably, unusual. In most cases when we use context sensitive expressions, the context is fixed across a conversation. (Or so most people think.)
+
+Because it is context sensitive, 'I' resists _homophonic disquotation_. What I mean by that is that you can't just say "Brian said that" and repeat the words I uttered. So if I utter (1), then (2) is true but (3) is false.
+
+(2) Brian said "I read a book".
+(3) Brian said that I read a book.
+
+Because it is context sensitive and fragile in the sense described above, a few things about agreement follow. Think about possible responses to (1). It seems like (4) is possible.
+
+(4) I agree - but I didn't read a book.
+
+After (1) you can expressly agree, while uttering the exact opposite of what I said. Relatedly, if you say (5), you are not thereby disagreeing with me.
+
+(5) I didn't read a book.
+
+Why am I going over all this? Well, there are a lot of cases where we have theoretical reason to posit context sensitivity in an expression, but where the term doesn't behave at all like 'I'. So let's think about 'rude', and imagine that I say (6).
+
+(6) What Joe did was rude.
+
+Then you can say (7), but it seems you can also say (8).
+
+(7) Brian said "What Joe did was rude."
+(8) Brian said that what Joe did was rude.
+
+On the other hand, you can't say (9).
+
+(9) #I agree - but what Joe did wasn't rude.
+
+If you say (10), it seems like you are disagreeing with me.
+
+(10) What Joe did wasn't rude.
+
+So 'rude' doesn't really behave anything like 'I'. Does that mean it isn't context sensitive? Well here's where things get tricky. While 'I' is the paradigm context sensitive expression, it is a very idiosyncratic one. I already mentioned that it is very fragile. Another thing that's weird about it is that you can't use it as a variable in quantified expressions. So compare what happens in (11) and (12).
+
+(11) [Said while pointing at Napoleon] He failed the test.
+(12) [Said while not pointing at anyone] Every boy fears that he failed the test.
+
+Note that in (11) 'he' picks out a particular boy, Napoleon. In (12), it is a variable ranging over boys. In logic we think of these as very different roles. But English uses the same phoneme for each. And so do most (all?) human languages. If you're looking at human languages, you'd think that the standard thing is that pronouns can be used inside quantifiers like 'Every boy' to range over the things being quantified over. But 'I' isn't like that. You can't use (13) to say that every boy has a self-directed fear of failure.
+
+(13) Every boy fears that I failed the test.
+
+Maybe 'rude' is context-sensitive, but it's more like 'he' than 'I'. Or maybe, even more plausibly, it's like 'tasty'. When I say that a meat pie is tasty, I don't mean to be ascribing to it a universal property of tastiness. I know that it is, quite literally, a question of taste. But note that after (14), (15) is fine but (16) is not.
+
+(14) Meat pies are tasty.
+(15) Brian said that meat pies are tasty.
+(16) #I agree - but meat pies are not tasty.
+
+If "Meat pies are tasty" just means "I like the taste of meat pies", you'd expect (15) and (16) to be the other way around. But what else could "Meat pies are tasty" mean? One answer, given by John MacFarlane (UC Berkeley) is that a kind of relativism is true about taste claims. But now we're getting too far from the subject of this seminar.
+
+All this complicates figuring out how words are context-sensitive. We'd like to be able to use data on agreement and disagreement, on when we do and don't correct people, to tell what a word means. But for context-sensitive terms, these tests are hard.

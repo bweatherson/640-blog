@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Week Three: Williams</title>
+
+  <meta property="description" itemprop="description" content="A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don&#39;t complicate it."/>
+
+
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-09-20"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-09-20"/>
+  <meta name="article:author" content="Brian Weatherson"/>
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Week Three: Williams"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don&#39;t complicate it."/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Week Three: Williams"/>
+  <meta property="twitter:description" content="A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don&#39;t complicate it."/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=The scientific image;citation_publication_date=1980;citation_publisher=Oxford University Press;citation_author=Bas Fraassen"/>
+  <meta name="citation_reference" content="citation_title=Epistemic injustice;citation_publication_date=2007;citation_publisher=Oxford University Press;citation_author=Miranda Fricker"/>
+  <meta name="citation_reference" content="citation_title=The analysis of knowledge;citation_publication_date=2013;citation_publisher=Metaphysics Research Lab, Stanford University;citation_author=Jonathan Jenkins Ichikawa;citation_author=Matthias Steup"/>
+  <meta name="citation_reference" content="citation_title=Philosophical explorations;citation_publication_date=1981;citation_publisher=Harvard University Press;citation_author=Robert Nozick"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","bibliography","preview","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Week Three: Williams"]},{"type":"character","attributes":{},"value":["A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don't complicate it.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Brian Weatherson"]},{"type":"character","attributes":{},"value":["http://brian.weatherson.org"]},{"type":"character","attributes":{},"value":["University of Michigan"]},{"type":"character","attributes":{},"value":["https://lsa.umich.edu/philosophy"]}]}]},{"type":"character","attributes":{},"value":["09-20-2021"]},{"type":"character","attributes":{},"value":["../../../articles/Rbib.bib"]},{"type":"character","attributes":{},"value":["williams.jpg"]},{"type":"character","attributes":{},"value":["relativism","fact/value distinction","weekly notes"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth","number_sections"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["week-three-williams_files/anchor-4.2.2/anchor.min.js","week-three-williams_files/bowser-1.9.3/bowser.min.js","week-three-williams_files/distill-2.2.21/template.v2.js","week-three-williams_files/header-attrs-2.10/header-attrs.js","week-three-williams_files/jquery-1.11.3/jquery.min.js","week-three-williams_files/popper-2.6.0/popper.min.js","week-three-williams_files/tippy-6.2.7/tippy-bundle.umd.min.js","week-three-williams_files/tippy-6.2.7/tippy-light-border.css","week-three-williams_files/tippy-6.2.7/tippy.css","week-three-williams_files/tippy-6.2.7/tippy.umd.min.js","week-three-williams_files/webcomponents-2.0.0/webcomponents.js","williams.jpg"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="week-three-williams_files/header-attrs-2.10/header-attrs.js"></script>
+  <script src="week-three-williams_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="week-three-williams_files/popper-2.6.0/popper.min.js"></script>
+  <link href="week-three-williams_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="week-three-williams_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="week-three-williams_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="week-three-williams_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="week-three-williams_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="week-three-williams_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="week-three-williams_files/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Week Three: Williams","description":"A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don't complicate it.","authors":[{"author":"Brian Weatherson","authorURL":"http://brian.weatherson.org","affiliation":"University of Michigan","affiliationURL":"https://lsa.umich.edu/philosophy","orcidID":""}],"publishedDate":"2021-09-20T00:00:00.000+00:00","citationText":"Weatherson, 2021"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Week Three: Williams</h1>
+<!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">relativism</div>
+<div class="dt=tag">fact/value distinction</div>
+<div class="dt=tag">weekly notes</div>
+</div>
+<!--/radix_placeholder_categories-->
+<p><p>A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don’t complicate it.</p></p>
+</div>
+
+<div class="d-byline">
+  Brian Weatherson <a href="http://brian.weatherson.org" class="uri">http://brian.weatherson.org</a> (University of Michigan)<a href="https://lsa.umich.edu/philosophy" class="uri">https://lsa.umich.edu/philosophy</a>
+  
+<br/>09-20-2021
+</div>
+
+<div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#big-picture">Big Picture</a></li>
+<li><a href="#the-distinction">The Distinction</a></li>
+<li><a href="#williamss-background-theory-of-knowledge">Williams’s Background Theory of Knowledge</a></li>
+<li><a href="#scientific-realism">Scientific Realism</a></li>
+<li><a href="#what-is-objectivity-for-williams">What is Objectivity for Williams?</a></li>
+<li><a href="#aside-on-mathematics">Aside on Mathematics</a></li>
+<li><a href="#knowledge-involving-thick-concepts">Knowledge Involving Thick Concepts</a></li>
+<li><a href="#two-notions-of-reflection">Two Notions of Reflection</a></li>
+<li><a href="#relativism">Relativism</a></li>
+</ul>
+</nav>
+</div>
+<h3 id="big-picture">Big Picture</h3>
+<p>Most writers we look at will fall neatly enough into one of two categories.</p>
+<ol type="1">
+<li>They take thick concepts seriously, i.e., they think that they are philosophically consequential, and one of those consequences is that they undermine philosophical theories which rely on (anything like) a fact/value distinction.</li>
+<li>They think that thick concepts are at most an interesting bit of language to be explained away, and do not threaten the fact/value distinction that they rely on in their theories.</li>
+</ol>
+<p>Most of the people in category 2 rely on a fact/value distinction either in their metaphysical picture, or their picture of mind and language. Occasionally there are people who have a fact/value distinction in their epistemology but not in the metaphysics or theory of content. (Possibly that’s literally just me.)</p>
+<p>Williams, despite being the person everyone cites as being the historically central figure in the discussion of thick concepts, doesn’t fall neatly into either camp. He does have a fact/value distinction - or at least something very much like it. So you might think he’d be in category 2. But in fact he thinks thick concepts are very significant to philosophy - though in his case the significance is a distinct kind again. He thinks that thick concepts are particularly significant ethically.</p>
+<p>But he also thinks that a kind of ethical relativism is true, and he does not think that any kind of scientific relativism is true. So he needs some kind of distinction. And when thick concepts come in, they actually seem like a kind of problem for his view - since they suggest that the kind of objectivism about ethics he disparages might be defensible.</p>
+<h3 id="the-distinction">The Distinction</h3>
+<p>I’ve been calling it roughly the fact/value distinction, but Williams spends a lot of ink on why that’s not, in his opinion, the right way to conceive of it.</p>
+<p>It’s not the fact/value distinction because not all questions about value are on the right hand side of the distinction. In particular, a lot of questions in aesthetics are about value, but they are not (I think) on the right hand side of the distinction for Williams. He also thinks ‘fact’ isn’t right for the left-hand side, but I couldn’t really see why. It’s possible that he’s assuming some kind of minimalism about facts, so there can be ethical facts, it’s just that they aren’t scientific facts.</p>
+<p>It’s not the theoretical/practical distinction either. Not all questions about what to do are ethical questions. Children fighting over a cake are engaged in a practical dispute, but not an ethical one. (Though either may try to turn it into an ethical one by invoking principles of justice.) And I think Williams wants to say that not all factual questions are theoretical ones either. There is something funny about describing my wondering where my car keys as a theoretical inquiry, though I also don’t think we go seriously wrong by this way of speaking.</p>
+<p>What he does ultimately think is that it is a distinction between objective and non-objective fields. And the explanation is interestingly epistemological. A field is objective if we can expect that there will be convergence in people’s opinions, and this convergence is explained by the opinions being correct. Or at least that’s the initial theory - I’m not sure how consistently Williams sticks to it. But even this theory is worth spelling out a bit, and it’s worth first taking a step back to something that is very familiar.</p>
+<h3 id="williamss-background-theory-of-knowledge">Williams’s Background Theory of Knowledge</h3>
+<p>So as many of you know, contemporary epistemology starts with the publication of a three page paper in 1963: Edmund Gettier’s “Is Justified True Belief Knowledge?” Gettier wanted to reject the follow class of theories of knowledge.</p>
+<p>S knows that p just in case these three conditions are met:</p>
+<ol type="1">
+<li>S believes that p.</li>
+<li>This belief is true.</li>
+<li>This belief is ‘justified.’</li>
+</ol>
+<p>You can treat the third as a placeholder for any notion that assigns positive normative status to the belief. So we could just as easily say that the belief is sensible, or reasonable, or held for good reasons, or etc. And the worry is that cases where 2 and 3 are both true, but they are true for completely unrelated reasons, don’t seem like knowledge. It wasn’t immediately realised, but there are cases of this form, actually used for refuting roughly this theory, from a few places in the history of philosophy. The following two examples are both taken from <span class="citation" data-cites="SEPAnalysisKnowledge"><a href="#ref-SEPAnalysisKnowledge" role="doc-biblioref">Ichikawa and Steup</a> (<a href="#ref-SEPAnalysisKnowledge" role="doc-biblioref">2013</a>)</span>.</p>
+<blockquote>
+<p>Imagine that we are seeking water on a hot day. We suddenly see water, or so we think. In fact, we are not seeing water but a mirage, but when we reach the spot, we are lucky and find water right there under a rock. Can we say that we had genuine knowledge of water? The answer seems to be negative, for we were just lucky. (From the 8th century North Indian philosopher Dharmottara)</p>
+</blockquote>
+<blockquote>
+<p>Let it be assumed that Plato is next to you and you know him to be running, but you mistakenly believe that he is Socrates, so that you firmly believe that Socrates is running. However, let it be so that Socrates is in fact running in Rome; however, you do not know this. (From the 14th century Italian philosopher Peter of Mantua)</p>
+</blockquote>
+<p>It is important in these cases to assume that the false belief is justified, reasonable, held for good reasons, whatever you think should go in 3. But it should be possible to have cases that are like that.</p>
+<p>So after 1963 there were a flood of ideas about how to either add a fourth condition to this account of knowledge, or change the 3rd condition in a way that made it immune to these problems. The general idea was that we had to somehow link the 2nd and 3rd conditions, and I think something like this is basically right.</p>
+<p>Williams endorses a specific version of this kind of strategy, the one defended by Robert Nozick in his <em>Philosophical Explanations</em> <span class="citation" data-cites="Nozick1981">(<a href="#ref-Nozick1981" role="doc-biblioref">1981</a>)</span>. Simplifying a lot, Nozick wanted to replace the third condition with the following counterfactual.</p>
+<ul>
+<li>If p were not true, S would not have believed it.</li>
+</ul>
+<p>This feels like it gets a lot of everyday cases right. We say when this condition is met that S’s belief <strong>tracks</strong> the truth. And this is a good property for beliefs to have. Indeed, you can see a lot of safeguards we put on scientific experiments as aims to make sure the results of experiments, and hence of experimenters’ beliefs, track the truth about the experimental situation.</p>
+<p>But it can’t be right as a theory of knowledge. A lot of problems were raised for it almost immediately by Saul Kripke, who naturally didn’t publish these problems for three decades. (See <span class="citation" data-cites="SEPAnalysisKnowledge"><a href="#ref-SEPAnalysisKnowledge" role="doc-biblioref">Ichikawa and Steup</a> (<a href="#ref-SEPAnalysisKnowledge" role="doc-biblioref">2013</a>)</span> for more about Kripke’s lectures.) Here’s one kind of case that seems to be devastating for this view. Imagine that I’m currently completely sober, but when I drink my judgment goes awry in all sorts of ways. Then the following claims could both be true.</p>
+<ol type="1">
+<li>I know that I’m sober enough to drive.</li>
+<li>If I were not sober enough to drive, I would still believe that I’m sober enough to drive.</li>
+</ol>
+<p>And there are many more problems where that comes from. While Nozick’s theory was popular for a while, it is now as universally accepted as anything ever is accepted in philosophy that it simply fails.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Is it a problem that Williams relies on a false theory here? I don’t think it is. Because while Nozick’s theory fails, he doesn’t need that theory to be true, and there are near enough theories that are true.</p>
+<p>As he notes at a few times, Williams ultimately isn’t relying on theories of knowledge here. He wants an account of what objectivity is, and he allows that people can have knowledge of the non-objective. So he could just drop the references to Nozick, or treat Nozick’s view as at best an inspiration.</p>
+<p>Or he could adopt the kind of theory that virtue epistemologists such as Ernest Sosa and Linda Zagzebski have endorsed. They think that the core extra condition is something like that what justifies the belief is in part the truth of the belief. We’ll say more on this when we do more virtue epistemology.</p>
+<h3 id="scientific-realism">Scientific Realism</h3>
+<p>I found the discussion of ‘science’ in chapter 8 very tough going, in part because I don’t know what he even means by science. It’s this very classically English philosophy of science that doesn’t get its hands dirty by engaging with any actual scientific work. When you look at quantum physics, do you see one step of convergence after another? Or macro-economics?</p>
+<p>Williams’s theory is that we can accept a kind of realism in science because in science we have theorists whose beliefs converge, and the convergence is explained by their truth. It seems easy pickings for a dedicated scientific anti-realist, like say <span class="citation" data-cites="vanFraassen1980b"><a href="#ref-vanFraassen1980b" role="doc-biblioref">Fraassen</a> (<a href="#ref-vanFraassen1980b" role="doc-biblioref">1980</a>)</span>, to reply to this. Maybe we get convergence because theories do better and better at predicting the macroscopic phenomena. But since there are so many possible theories that predict the macroscopic phenomena, and since so many theories that approximately predicted macroscopic phenomena in the past have been rejected, that’s no reason to believe in the truth of contemporary theories.</p>
+<h3 id="what-is-objectivity-for-williams">What is Objectivity for Williams?</h3>
+<p>Throughout chapter 8 there are a number of overlapping ideas that come up as being criteria for a field being objective. And I wanted to lay some of them out, because they didn’t all seem to be the same to me.</p>
+<dl>
+<dt>Convergence on Reality</dt>
+<dd>It is reasonable to expect that people’s beliefs will converge, and that what will explain the convergence is that the beliefs are true.
+</dd>
+</dl>
+<p>This is the original, and I think official, definition of objectivity. As I said in the previous section, I think it’s actually a fairly bold claim to think that this is true of science. But it isn’t the only thing Williams puts forward.</p>
+<dl>
+<dt>Convergence on Justification</dt>
+<dd>It is reasonable to expect that people’s beliefs will converge, and and that what will explain the convergence is the same thing as what justifies the people in having their belief.
+</dd>
+</dl>
+<p>This is closer to what we see when we get onto the stuff about thick concepts later in the chapter. It’s how I interpret the slogan he repeats a few times “What explains is what justifies.” And while it’s similar to the first one, it isn’t the same. Various anti-realist approaches to science, especially those driven by anti-metaphysical views, might think that scientists’ views will converge, and that this convergence will be explained by the same phenomena (especially observational data) that justifies the scientists in their beliefs. But you can say all this while still thinking it not clear whether scientific theories are even the right kinds of things to be true.</p>
+<dl>
+<dt>Co-Tenability</dt>
+<dd>Either one of the convergence criteria are met, or the end state will not be convergence, but a partition of space into people with different views. But if the latter obtains, then there will be an external viewpoint from which any person in any part of the partition can view the other cells as correct from their standpoint.
+</dd>
+</dl>
+<p>I think, think, that this is what is going on in the color case. The discussion of color is very confusing. It reads to me like there is a small set of theories that are acceptable-in-Oxford-in-1985, and there is a tacit assumption somewhere that the disjunction of these is correct. There are various moves of the form <em>If not this, then that</em> which I couldn’t make sense of really on their own (because ‘this’ and ‘that’ are defined in terms of those theories) but also couldn’t see why they were the only alternatives.</p>
+<p>But as best as I can make out, what’s important to Williams is that the people involved can see each other as being part of a broader system, and the system justifies (and makes true?) their own beliefs, but also justifies (and makes true?) the beliefs of the others.</p>
+<p>I’d like to say exactly how this is meant to work in the case of color, but I honestly can’t tell precisely what theory of color Williams is working with here. I can’t even really tell if he takes the canonical sentences to be things like <em>That’s green</em>, or <em>Those two things are the same color</em>. These raise quite different issues. You probably can’t use the word ‘green’ unless you have some acquaintance with our color practices. But you can say that things are the same color. And you can say that, or deny it, in cases where you have very different metamers to typical humans. (There is also the tricky fact that there is huge variation in color vision within humans, some of it surprisingly correlated with biological sex, so what ‘our’ practice is here is a bit elusive.)</p>
+<p>There are two other things that get mentioned at various points, neither of which seem exactly like any of the three things said so far.</p>
+<dl>
+<dt>Explanation of Error</dt>
+<dd>An explanation of why most of us converge should also explain why some people make errors, and what those errors consist in.
+</dd>
+<dt>Repeating Term in Explanation</dt>
+<dd>The explanation of convergence shouldn’t change the subject, and could use the term whose convergence we’re explaining.
+</dd>
+</dl>
+<p>The pattern analytic philosophers have of suspecting that if someone isn’t saying precisely something, they aren’t saying anything at all, is sometimes rather annoying. But the alternative, of saying allusive things but not quite sticking to your own terms, isn’t fun either.</p>
+<h3 id="aside-on-mathematics">Aside on Mathematics</h3>
+<p>Is mathematics objective in Williams’s sense? As I read the text, he’s assuming that it must be, and that it’s a constraint on a decent theory of objectivity that it turns out to be objective. And he’s right to be scared of this, because it really isn’t obvious on his theory that mathematics is objective.</p>
+<p>There is a big question here - do we believe mathematical claims because they are true? This is hard to adjudicate because we normally understand those ‘because’ claims in terms of counterfactuals, and counterfactuals about math being false are literally incoherent. So there is a worry that mathematics won’t be objective on Williams’s view.</p>
+<p>Williams suggests another way to be a realist (or objectivist) about math - all the parts of it could in principle be believed together. But I think this is true only on a particular view about what we’re doing in math, what we might call ‘if-then-ism.’ On the face of it, it isn’t true that you can believe all of mathematics at once. Different set theorists, for example, start with different axioms, and naturally prove different things. You can’t believe all of them. You can only have Williams’s attitude towards math if you think that these folks aren’t really proving theorems are true, they are just proving that certain theorems follow from particular axioms. That’s not an absurd theory of mathematics - some people endorse it - but it should be controversial. Like with the discussion of science, this reads like someone who never actually engaged with real cutting edge technical work, and is just going off what they learned in school.</p>
+<h3 id="knowledge-involving-thick-concepts">Knowledge Involving Thick Concepts</h3>
+<p>Williams thinks that at least some people in cultures unlike ours can have knowledge involving thick concepts. Let’s take a particular instance of this, involving the character Laertes from <em>Hamlet</em>. Hamlet himself is exactly the kind of person who in questioning those norms that hold society together undermines the confidence that Williams is so keen on. But Laertes seems a pretty good ’un by Williams’s lights I reckon. Or at least not a bad ’un, and that’ll be enough. So think about (1).</p>
+<ol type="1">
+<li>Laertes knows that it is honorable to kill Hamlet to avenge his father’s death.</li>
+</ol>
+<p>Williams is interested in three challenges to this claim: one from tracking, one from truth, and one from reflection.</p>
+<p>The tracking concern is relatively easy to deal with. Laertes’ beliefs about honor do track something reasonably well. They aren’t random. They do accord with the cultural norms of honor. They aren’t good beliefs. They encourage revenge murder. As Ophelia points out, they lead to hypocritical treatment of men and women - Laertes can have all the affairs he wants off in Paris, but if she has an affair with Hamlet, that’s dishonorable. But still, Laertes isn’t being random or capricious here. We’ll come back to whether conformity to culture is enough, but Laertes does seem to be tracking.</p>
+<p>The truth concern is a little trickier. If you understand honor as meaning ‘good in virtue of X’ for some descriptive property X, then you will not think that 1 is true. It isn’t good in virtue of anything for Laertes to kill Hamlet. And here Williams simply wants to deny that’s how thick concepts work. They are action-guiding all right - Laertes kills Hamlet because that’s the honorable thing to do. But they are more directly action-guiding. They don’t tell you - oh this thing is honorable, so it’s good, so do it! Rather, they just say - oh this thing is honorable, so do it! So Williams thinks at least this reason to think that Laertes’ belief is false fails. But what does he think the truth conditions of Laertes’ belief are? I’m not sure, and we’ll come back to this.</p>
+<p>The reflection concern is in two parts. First, Laertes could not hold on to this belief on critical reflection. Second, a belief is only knowledge if it could survive this kind of reflective process. I want to say more soon about reflection. Williams connects it to the Socrates, and we could think of it as being the attempt to survive the process of questions and answers that you see in the Socratic dialogues. But you could also think of it in terms of what Hamlet does - spending hours pacing around wondering about the nobility or whatever of various acts you’re contemplating. Anyway, Williams thinks that you can know things, even if this knowledge wouldn’t survive reflection. As he says, reflection can destroy knowledge. So the fact that Laertes is not reflective, and that he would have different beliefs if he were reflective, doesn’t threaten his knowledge.</p>
+<p>But even though 1 is true, Williams wants to reject 2.</p>
+<ol start="2" type="1">
+<li>It is an objective fact that it is honorable for Laertes to kill Hamlet to avenge his father’s death.</li>
+</ol>
+<p>Why? Well it fails most of the conditions for objectivity mentioned above. We can explain why so many people in the castle, and perhaps in the broader culture, agree about honor without invoking honor. The best explanation will be the social utility of concepts like honor. (Or at least their utility to the powerful people.) So this won’t be an objective fact.</p>
+<p>But there is this further question about what those of us who reject the honor culture should say about what it is honorable for Laertes to do. Williams’s own answer is hard to parse. He gives this super weird example involving schoolkids, and then hand waves about it being something vaguely like that. But the example doesn’t make a whole lot of sense. I’m used to the idea that there are people who can mention but not use a particular charged term. (That’s a view about slurs, though one that isn’t as popular now as it was 10 years ago.) But what is going on with a term that some of us are only allowed to mention or use in indirect speech reports? Could we also use it in describing the beliefs that the schoolkids have? I don’t get it.</p>
+<p>And this is the super-hard question. There are two obvious options around here.</p>
+<ol type="1">
+<li>Say that honor-talk is evaluative, and since we reject the evaluations, we don’t go in for that kind of talk at all - even to the extent of attributing knowledge to Laertes. I think that’s Foot’s view.</li>
+<li>Say that honor-talk is purely descriptive, though it maybe implicates or something that we endorse an evaluative picture. So we won’t use it unless there is a way to cancel that implicature. That’s Pekka’s view more or less.</li>
+</ol>
+<p>Now Williams I think wants to slide between these two views. But I don’t see the space there. This is surely more a reflection of my lack of insight than anything else. But I don’t know what the positive picture is supposed to be.</p>
+<h3 id="two-notions-of-reflection">Two Notions of Reflection</h3>
+<p>Williams talks a lot in these chapters about reflection. But as I read it, there are two different kinds of reflection, and they play different theoretical roles.</p>
+<ul>
+<li>One kind is reflection by theorists who are looking to explain the uses of a thick term, and especially to explain convergence in its use.</li>
+<li>Another is reflection by users of the term who are worried about whether they ought to be using the term.</li>
+</ul>
+<p>The first kind of reflection plays a major role in chapter 8. It is because our reflections on honor-talk go a certain way that honor-talk is not objective in Williams’s sense. The second kind of reflection plays a major role in chapter 9. It’s what Hamlet does, and it’s what leads to the terrible crisis of confidence that Williams is upset about at the end of the chapter.</p>
+<p>Now it is possible that these don’t go the same way, especially on some ways of solving the problems at the end of the last section. In particular, some ways of solving those problems will end up with us saying sure they converge on beliefs about honor because those beliefs are true. Now what makes those beliefs true will not be remotely what they think makes those beliefs true. It will be something about social practices not something about true morality or whatever. But that’s ok - as David Chalmers points out, our beliefs about tables, chairs and beer mugs aren’t made true by what we think they are made true by.</p>
+<p>The Hamlet-style reflection by users is a different story. (I’m maybe cheating a little bit here. Hamlet worries about, e.g., whether suicide is noble, not about whether nobility itself is good. But I think the way he does it really does undermine the very notion of nobility.) That does seem to require stepping back and using very different notions, in a way that maybe (maybe) reflection on our color talk does not.</p>
+<p>But I was surprised at how quickly Williams moves to thinking that we’ll have to use thin concepts to judge thick concepts. We could just use other thick concepts. And in fact we often do. We often ask whether the way we use certain terms or concepts is <strong>just</strong>. When Laertes sees the error of his ways, and perhaps of the honor code he was working under, he says that he is <em>justly</em> slain, not <em>rightly</em> slain. More recently, Miranda <span class="citation" data-cites="Fricker2007"><a href="#ref-Fricker2007" role="doc-biblioref">Fricker</a> (<a href="#ref-Fricker2007" role="doc-biblioref">2007</a>)</span> talks about judging epistemic concepts by the standards of epistemic <strong>justice</strong>. Maybe that’s wrong, we should not focus on epistemic justice and injustice but, as Kristie Dotson suggests, epistemic <strong>oppression</strong>. There are lots of thick concepts we have around for use in judging other thick concepts.</p>
+<p>Justice in general is a bit of a problem for Williams, and maybe we can talk about that more in class. It doesn’t really fit into his discussion of either thin concepts or thick concepts, and this I suspect reveals a weakness in the whole structure.</p>
+<h3 id="relativism">Relativism</h3>
+<p>This has gone on a bit, but I want to end with a discussion of one brief argument in chapter 9 against a certain kind of relativism.</p>
+<blockquote>
+<p>Consider once more the hypertraditional society, and suppose that it does have some rules expressed in terms of something like “right” and “wrong.” When it is first exposed to another culture and invited to reflect, it cannot suddenly discover that there is an implicit relativisation hidden in its language. It is will always be, so it speak, too early or too late for that. It is too early, when they have never reflected or thought of an alternative to “us.” (A question from Chapter 7 applies here: how could this have come into their language?)</p>
+</blockquote>
+<p>So this I think is badly mistaken, but for interesting reasons. I think there is an implicit two step argument here.</p>
+<ol type="1">
+<li>The locals are in control of at least the syntax of their language, of how many argument places their predicates have.</li>
+<li>If relativism is true, then terms like “right” and “wrong” have one more argument place than people thought they did.</li>
+<li>So, relativism is wrong.</li>
+</ol>
+<p>Premise 1 is fairly debatable - I think Williams is assuming some kind of internalism about the language, at least at some level. And that’s controversial. You certainly don’t want an individual level version of that principle, as we can see by thinking about time zones. But set worries about premise 1 aside, and focus on premise 2.</p>
+<p>Think about the (very) ordinary sentence <em>It’s raining</em>. Call it R. We know what it is for an utterance of R to be true. It has to be raining</p>
+<ul>
+<li>In the place of the utterance;</li>
+<li>At the time of the utterance;</li>
+<li>In the world of the utterance.</li>
+</ul>
+<p>When I utter R on Christmas Day in Alice Springs, it doesn’t matter whether it is or isn’t raining somewhere else, or on some other day, or in some other possible world. As long as it is raining at that place, at that time, in that world, my utterance is true.</p>
+<p>But this massively underdetermines what the content of R is. In general we want to say that a sentence is true if its content corresponds to the way things are. But when you have something like R, it is tricky to know what to put into the content, and what to put into the way things are. And in fact there is a choice to be made on each of the three bullet points.</p>
+<p>Most theorists, in fact everyone I know, thinks that the place goes into the content. That is, an utterance of R expresses a content that has the place of the utterance as a constituent, and the truth of that content is measured against a ‘place-neutral’ world. The alternative would be to say that the content is just that rain is happening, and it is measured against a world that looks a bit like a map with a “You are here” icon, and the utterance is true if it is raining at the icon. This is coherent, but I don’t think anyone thinks it. (In part because it yields weird predictions about embeddings.)</p>
+<p>Most theorists, but not quite everyone I know, thinks that the world does not go into the content. An utterance of R does not express that it is raining (in Alice Springs or wherever) <em>in this world</em>. Rather, which possible world we’re in is part of the facts that the content is measured against. We could go the other way around, and say that an utterance of R has a world-specific content. And there is some evidence for that approach. But mostly people think it’s wrong.</p>
+<p>And there is no consensus about how to handle time. <em>Eternalism</em>, in this context, is the view that the content of R includes the time of utterance, and that content is measured against a ‘timeless’ world. <em>Temporalism</em> is that the content is just that it is raining (at a place), and the world it is measured against has an icon or something saying “This is now.” And what matters is that it is raining (at a particular place) when that icon occurs. Among philosophers of language, Eternalism is the majority view, but Temporalism has a number of adherents, including some very prominent ones.</p>
+<p>Why does this all matter? Because we can do the same trick about cultural relativity. Even if sentences like “It is honorable to kill people who kill your father” are culturally relative, we can ask whether the relativity goes in the content, or in the world they are measured against. And Williams’s argument assumes, without any argument at all, that the relativity goes in the content. And this is probably the wrong form of relativism.</p>
+<p>Well this isn’t a philosophy of language seminar (really it isn’t), so I won’t keep going. If you’re interested (or even remotely curious) you should read John MacFarlane’s excellent book <em>Assessment Sensitivity</em>, which as well as going into great detail on this, will also suggest ways in which the setup I’ve given here is somewhat mistaken. But that’s a debate for another, very different, class. For now I’ll just note that there are a lot more options for relativism that are taken seriously now than there were when Williams was writing, and some of the arguments here fall short because of this restricted vantage.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-vanFraassen1980b" class="csl-entry" role="doc-biblioentry">
+Fraassen, Bas van. 1980. <em>The Scientific Image</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Fricker2007" class="csl-entry" role="doc-biblioentry">
+Fricker, Miranda. 2007. <em>Epistemic Injustice</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-SEPAnalysisKnowledge" class="csl-entry" role="doc-biblioentry">
+Ichikawa, Jonathan Jenkins, and Matthias Steup. 2013. <span>“The Analysis of Knowledge.”</span> In <em>The Stanford Encyclopaedia of Philosophy</em>, edited by Edward N. Zalta, Fall 2013. Metaphysics Research Lab, Stanford University. <a href="http://plato.stanford.edu/archives/fall2013/entries/knowledge-analysis/">http://plato.stanford.edu/archives/fall2013/entries/knowledge-analysis/</a>.
+</div>
+<div id="ref-Nozick1981" class="csl-entry" role="doc-biblioentry">
+Nozick, Robert. 1981. <em>Philosophical Explorations</em>. Cambridge, MA: Harvard University Press.
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>See, there is philosophical progress!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>

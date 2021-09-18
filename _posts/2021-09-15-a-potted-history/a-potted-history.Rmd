@@ -1,0 +1,89 @@
+---
+title: "A Potted History"
+description: |
+  A quick summary of the history of work relevant to the fact-value distinction that we're discussing in class.
+author:
+  - name: Brian Weatherson
+    url: http://brian.weatherson.org
+    affiliation: University of Michigan
+    affiliation_url: https://lsa.umich.edu/philosophy
+date: 09-15-2021
+bibliography: ../../../articles/Rbib.bib
+preview: foot.jpg
+categories:
+  - G. E. Moore
+  - positivism
+  - ordinary language philosophy
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+
+### 1903 - Principia Ethica
+
+In 1903, G. E. Moore (1873-1958, mostly Cambridge) publishes _Principia Ethica_. It launches the modern version of what we'd now call meta-ethics. So the focus isn't (or at least isn't just) about which things are good and bad, right and wrong, but philosophical questions about what we're doing when we do ethics. In contemporary meta-ethics we focus on at least these four questions.
+
+- **Metaphysics**: What kind of thing is goodness/rightness?
+- **Epistemology**: How do we know which things are good/right?
+- **Mind**: What is it to judge that something is good/right?
+- **Language**: What is it to say that something is good/right?
+
+I'm using this awkward locution 'good/right' to not choose between people who think goodness is primary, and people who think rightness is primary, though which is primary is a huge question in 20th century ethics. Moore very much thinks it is goodness.
+
+On my reading, Moore is really concerned with the first two of these. He thinks goodness is a sui generis 'non-natural' property. I think in modern terminology he's an anti-reductionist. And he thinks we know about it via a special faculty of moral intuition. I suspect that circa 1903 he would say that the mind/language questions are easy. To think/say something is good is to think/say that it has this special property.
+
+Moore says a lot of other things as well, but what's crucial for us is this very sharp boundary he draws between the evaluative and the non-evaluative, and the open question argument that he uses to motivate that boundary.
+
+### 1920s-1930s Vienna Circle
+
+After World War I, a group of German speaking philosophers developed what came to be called logical positivism. In its strictest version, this was the view that the truth conditions of a sentence (or a thought) were its conditions of verification. And to verify something is to observe that it obtains. So any sentence that purports to be about things we cannot observe can't actually have truth conditions. The only exceptions were definitions, or things that followed logically from definitions. This view has consequences for all sorts of things in philosophy, especially in metaphysics, philosophy of science and philosophy of mind. But here we're interested in its effects on ethics, and in particular on the fact/value distinction.
+
+This kind of view rules out Moore's views on ethics. Moore thought that _Murder is wrong_ is true, but its truth cannot be verified by observation. That's inconsistent with positivism. There are three kinds of views that are more consistent with positivism.
+
+One is a simple kind of relativism. To say that _Murder is wrong_ is to say that murder violates the norms around here. And to say that something is a norm around here is to say something like that people normally abide by it, and disapprove of (even punish) violations of it, and expect others to do likewise. You can add lots of bells and whistles, but these all look like observable claims.
+
+A second, endorsed by Moritz Schlick (1882-1936, the principal organiser of the Vienna Circle) was to take some basic moral principles to be true by definition, and then take the rest of ethics to be the consequences of those definitions and observation. So if you think it is definitional that good acts are those that maximise happiness, then ethics is the science of working out what maximises happiness. 
+
+A third (and ultimately the most popular among positivists) is to say that _Murder is wrong_ is not, in fact, true. Murder is wrong of course, but when we say that, we aren't describing some feature of the world - either some weird sui generis feature like Moore says, or some social feature, like the relativist I just suggested says. That's ok - there are lots of things we do with language other than describe the world.
+
+As the name suggests, the Vienna Circle was based in Vienna, though it had extensive connections with philosophers throughout central and northern Europe. Most of the figures in it had left-wing political sympathies, and several were Jewish. So they mostly fled Europe during the 1930s, though Schlick sadly was murdered by a former student who claimed to be defending Nazism.
+
+### 1936 - Language, Truth and Logic
+
+In 1936, A. J. Ayer (1910-1989, primarily London and Oxford), published _Language, Truth and Logic_, setting out a version of positivism. I think in many ways it is not a very good book. It is a fairly crude version of positivism compared to what the (now disbanding) Vienna Circle had developed by that time. But it had an explosive impact not least for the very important reason that it was in English. And Ayer, whatever his other faults, was a publicist of the highest order. (And lived an amazing life. It's worth looking up the anecdotes about him, especially the stories involving Lauren Bacall and then, much later, Naomi Campbell.)
+
+Language, Truth and Logic is a positivist approach to many of the main questions of philosophy. We're interested in its impact on ethics. Ayer thought that claims like _Murder is wrong_ couldn't be verified by observation, so couldn't be true. His suggestion was that they were emotional expressions. _Murder is wrong_ means something like _Boo murder!_.  This isn't really tenable as a theory, but it's worth having in the background.
+
+### World War II happens
+
+This obviously upsets the lives of many of the characters in our story, but there are two big implications I want to note.
+
+One is that the Vienna Circle flees Vienna, and many of them land in America. The effects of their arrival aren't felt immediately, but they have a big impact over time, with Rudolph Carnap (1891-1970, Vienna-Prague-Chicago-LA) and Carl Hempel (1905-1997, Princeton among many places) probably the most influential of those who fled.
+
+The other is that with all the young men being under arms, there are all sorts of spots open at British Universities. And they respond with the radical idea of admitting more women. Some of the most important figures in 20th century philosophy get drawn into the field this way, with Elizabeth Anscombe (1919-2001, Cambridge), Philippa Foot (1920-2010, Oxford) and Iris Murdoch (1919-1999) being the ones most relevant to our story. Among other things, Foot and Murdoch teach seminars at Oxford in the 1950s where a then student Bernard Williams first learns about thick concepts (though not under that phrase) and how they may be relevant to the fact/value distinction.
+
+### 1953 - Philosophical Investigations
+
+In 1953, _Philosophical Investigations_ a posthumous work by Ludwig Wittgenstein (1889-1951, Vienna-Cambridge) was published. The Investigations defies any kind of easy summary, but three big themes will be important for our purposes. One is the idea that philosophical problems often arise from philosophers misusing language, and can be dissolved by more careful attention to how the language actually works. A second is that one of these mistakes is taking the role of language in describing the world to be primitive. We should, thinks Wittgenstein, think of this as one role among many, and probably not the primary one. Notably, the other roles are typically social; one of the things philosophers have missed is the essentially social nature of language. And a third is the importance of understanding what it is to follow a rule to understanding philosophical problems.
+
+### The 1950s
+
+There are three overlapping trends in the 1950s that are relevant to our story.
+
+One is the development of more sophisticated forms of non-descriptive theories of ethics, i.e., theories that say _Murder is wrong_ does something other than say of some act (i.e., murder) that it has some property (i.e., wrongness). Part of this comes from incorporating into philosophical thinking the many and varied things we do with language. And part of it comes from dissatisfaction with the crudity of Ayer's emotivism. The most prominent such view is Hare's prescriptivism, where _Murder is wrong_ means (very roughly) _Don't murder!_.
+
+Another is the 'linguistic turn', the move towards thinking that philosophy should start by asking about how words for philosophically significant ideas are actually used. So don't start by asking what causes what, but instead by asking how the word 'cause' is used in normal language. And the same goes for 'wrong'.
+
+And a third is the development of 'ordinary language philosophy', which is especially associated with J. L. Austin (1911-1960, Oxford). This movement had several overlapping strands. One was the thought that language, especially language as used by ordinary speakers and not by high theorists, contained a number of insights that are philosophically relevant. By looking at the distinctions we make in language we can see when philosophers are running things together. The other is a movement towards a plainer style of writing. One crude but striking measure of this is that over the 1950s, the average word length in philosophy journals in England is about a letter lower than it is either before or after that time.
+
+### What's Not in Our Story
+
+That's probably enough to get us to the work in the 1980s that launches the modern discussion of thick concepts. But I want to very briefly note one dog that doesn't bark in this story.
+
+In the overwhelming majority of topics in contemporary philosophy, the debates either start, or are upended, by developments in America between about 1968 and 1975. There are a couple of fields (arguably epistemology, parts of philosophy of science) where the big upheavals happen a few years earlier, but for most debates those are the years you're looking at. And with the very notable exception of Philippa Foot's development of the Trolley Problem, you're mostly looking at work done in America. (And very often by people who are young enough to be important figures for the next 30+ years, sometimes through to the present.)
+
+But the debate about thick concepts mostly skips that time period. I wouldn't normally talk about what doesn't happen in a debate. But especially for new grad students, I want to stress just how unusual this is. It's arguable that things have changed a bit in the last 5-8 years. But at least through the mid-2010s, for most active philosophical debates, if you wanted to understand what was going on and fill in the background, you could do pretty well by starting with the relevant texts from the late 1960s-mid 1970s. And here we're going to have no readings from that time at all. 
