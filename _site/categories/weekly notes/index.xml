@@ -9,20 +9,8 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Week Four</title>
-      <dc:creator>Brian Weatherson</dc:creator>
-      <link>http://brian.weatherson.org/640-F21/posts/2021-09-28-week-four</link>
-      <description>Finishing up some notes on Williams, and McDowell on thick concepts.</description>
-      <category>relativism</category>
-      <category>reflection</category>
-      <category>shapelessness</category>
-      <guid>http://brian.weatherson.org/640-F21/posts/2021-09-28-week-four</guid>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/2021-09-28-week-four/johnmcdowell1.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
       <title>Week Three: Williams</title>
-      <dc:creator>Brian Weatherson</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
       <link>http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams</link>
       <description>A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don't complicate it.</description>
       <category>relativism</category>
@@ -30,32 +18,11 @@
       <category>weekly notes</category>
       <guid>http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams</guid>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams/williams.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>A Potted History</title>
-      <dc:creator>Brian Weatherson</dc:creator>
-      <link>http://brian.weatherson.org/640-F21/posts/2021-09-15-a-potted-history</link>
-      <description>A quick summary of the history of work relevant to the fact-value distinction that we're discussing in class.</description>
-      <category>G. E. Moore</category>
-      <category>positivism</category>
-      <category>ordinary language philosophy</category>
-      <guid>http://brian.weatherson.org/640-F21/posts/2021-09-15-a-potted-history</guid>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Context</title>
-      <dc:creator>Brian Weatherson</dc:creator>
-      <link>http://brian.weatherson.org/640-F21/posts/2021-09-15-context</link>
-      <description>Some background relevant to the idea discussed in class that 'rude' is context-sensitive.</description>
-      <category>contextualism</category>
-      <category>rudeness</category>
-      <guid>http://brian.weatherson.org/640-F21/posts/2021-09-15-context</guid>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams/williams.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Week Two: Moral Arguments</title>
-      <dc:creator>Brian Weatherson</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
       <link>http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments</link>
       <description>We'll start by looking at Arthur Prior's formal arguments against the 'No Ought from an Is' principle, and some contemporary responses to them. Then the bulk of the time will be looking at Philippa Foot's 1958 paper Moral Arguments. She also objects to 'No Ought from an Is', using a particular thick concept - rudeness - in her main example.</description>
       <category>moral arguments</category>
@@ -64,11 +31,11 @@
       <category>weekly notes</category>
       <guid>http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments</guid>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments/foot.jpg" medium="image" type="image/jpeg"/>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments/foot.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Week One</title>
-      <dc:creator>Brian Weatherson</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
       <link>http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one</link>
       <description>I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore's Principia Ethica.</description>
       <category>descriptive equivalence</category>
@@ -79,17 +46,7 @@
       <category>weekly notes</category>
       <guid>http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one</guid>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one/moore.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Welcome to Vices - A Users Guide</title>
-      <dc:creator>Brian Weatherson</dc:creator>
-      <link>http://brian.weatherson.org/640-F21/posts/welcome</link>
-      <description>This is the syllabus for the course. It includes links to the papers that we will read.</description>
-      <category>syllabus</category>
-      <guid>http://brian.weatherson.org/640-F21/posts/welcome</guid>
-      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      <media:content url="http://brian.weatherson.org/640-F21/posts/welcome/angell_phil.jpg" medium="image" type="image/jpeg"/>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one/moore.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
