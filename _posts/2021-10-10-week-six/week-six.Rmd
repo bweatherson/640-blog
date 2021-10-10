@@ -62,7 +62,7 @@ Now as it stands, that's invalid. We need an extra premise.
 
 - Competent users of a term do not use it in a way that is incoherent.
 
-And that premise is false. For example, some competent users of 'if' say that modus ponens is invalid. (My argument here draws heavily on @Williamson2007. His example of such a user is Vann McGee, and in particular the discussion of modus ponens in his -@McGee1985.) In general, any high level dispute about logic will involve competent users of a term using it incoherently. And we should wonder about Väyrynen's opponent can do by comparing the objectors to deviant logicians. We certainly don't want to argue that logic is incredibly weak because for just about any inference you can find _some_ competent user who rejects the inference. As 
+And that premise is false. For example, some competent users of 'if' say that modus ponens is invalid. (My argument here draws heavily on @Williamson2007-WILTPO-17. His example of such a user is Vann McGee, and in particular the discussion of modus ponens in his -@McGee1985.) In general, any high level dispute about logic will involve competent users of a term using it incoherently. And we should wonder about Väyrynen's opponent can do by comparing the objectors to deviant logicians. We certainly don't want to argue that logic is incredibly weak because for just about any inference you can find _some_ competent user who rejects the inference. As 
 
 - What exactly is meant to be wrong with the polysemy view?
 
