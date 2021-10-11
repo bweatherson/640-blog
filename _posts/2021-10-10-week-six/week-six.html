@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Week Six: Pragmatic Arguments</title>
+
+  <meta property="description" itemprop="description" content="There are three aims for the week. The first is to go over Väyrynen&#39;s negative argument against semantic views. The second is to briefly go over his positive account. And the third is to wrap up this half of the course by looking back at the big questions we were investigating about the fact/value distinction."/>
+
+
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-10-11"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-10-11"/>
+  <meta name="article:author" content="Brian Weatherson"/>
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Week Six: Pragmatic Arguments"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="There are three aims for the week. The first is to go over Väyrynen&#39;s negative argument against semantic views. The second is to briefly go over his positive account. And the third is to wrap up this half of the course by looking back at the big questions we were investigating about the fact/value distinction."/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Week Six: Pragmatic Arguments"/>
+  <meta property="twitter:description" content="There are three aims for the week. The first is to go over Väyrynen&#39;s negative argument against semantic views. The second is to briefly go over his positive account. And the third is to wrap up this half of the course by looking back at the big questions we were investigating about the fact/value distinction."/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=How are thick terms evaluative;citation_publication_date=2013;citation_volume=13;citation_author=Brent G. Kyle"/>
+  <meta name="citation_reference" content="citation_title=A counterexample to modus ponens;citation_publication_date=1985;citation_volume=82;citation_doi=10.2307/2026276;citation_author=Vann McGee"/>
+  <meta name="citation_reference" content="citation_title=Studies in the way of words;citation_publication_date=1989;citation_publisher=Harvard University Press;citation_author=H. Paul Grice"/>
+  <meta name="citation_reference" content="citation_title=The Philosophy of Philosophy;citation_publication_date=2007;citation_publisher=Blackwell;citation_author=Timothy Williamson"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","bibliography","preview","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Week Six: Pragmatic Arguments"]},{"type":"character","attributes":{},"value":["There are three aims for the week. The first is to go over Väyrynen's negative argument against semantic views. The second is to briefly go over his positive account. And the third is to wrap up this half of the course by looking back at the big questions we were investigating about the fact/value distinction.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Brian Weatherson"]},{"type":"character","attributes":{},"value":["http://brian.weatherson.org"]}]}]},{"type":"character","attributes":{},"value":["10-11-2021"]},{"type":"character","attributes":{},"value":["../../../articles/Rbib.bib"]},{"type":"character","attributes":{},"value":["pekka.jpg"]},{"type":"character","attributes":{},"value":["fact-value distinction","pragmatic model","semantic model","rejected terms"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth","number_sections"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["pekka.jpg","week-six_files/anchor-4.2.2/anchor.min.js","week-six_files/bowser-1.9.3/bowser.min.js","week-six_files/distill-2.2.21/template.v2.js","week-six_files/header-attrs-2.10/header-attrs.js","week-six_files/jquery-1.11.3/jquery.min.js","week-six_files/popper-2.6.0/popper.min.js","week-six_files/tippy-6.2.7/tippy-bundle.umd.min.js","week-six_files/tippy-6.2.7/tippy-light-border.css","week-six_files/tippy-6.2.7/tippy.css","week-six_files/tippy-6.2.7/tippy.umd.min.js","week-six_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="week-six_files/header-attrs-2.10/header-attrs.js"></script>
+  <script src="week-six_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="week-six_files/popper-2.6.0/popper.min.js"></script>
+  <link href="week-six_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="week-six_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="week-six_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="week-six_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="week-six_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="week-six_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="week-six_files/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Week Six: Pragmatic Arguments","description":"There are three aims for the week. The first is to go over Väyrynen's negative argument against semantic views. The second is to briefly go over his positive account. And the third is to wrap up this half of the course by looking back at the big questions we were investigating about the fact/value distinction.","authors":[{"author":"Brian Weatherson","authorURL":"http://brian.weatherson.org","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-10-11T00:00:00.000+00:00","citationText":"Weatherson, 2021"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Week Six: Pragmatic Arguments</h1>
+<!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">fact-value distinction</div>
+<div class="dt=tag">pragmatic model</div>
+<div class="dt=tag">semantic model</div>
+<div class="dt=tag">rejected terms</div>
+</div>
+<!--/radix_placeholder_categories-->
+<p><p>There are three aims for the week. The first is to go over Väyrynen’s negative argument against semantic views. The second is to briefly go over his positive account. And the third is to wrap up this half of the course by looking back at the big questions we were investigating about the fact/value distinction.</p></p>
+</div>
+
+<div class="d-byline">
+  Brian Weatherson <a href="http://brian.weatherson.org" class="uri">http://brian.weatherson.org</a> 
+  
+<br/>10-11-2021
+</div>
+
+<div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#väyrynens-argument-against-semantic-views">Väyrynen’s Argument Against Semantic Views</a></li>
+<li><a href="#väyrynens-positive-view">Väyrynen’s Positive View</a></li>
+<li><a href="#four-big-questions">Four Big Questions</a></li>
+</ul>
+</nav>
+</div>
+<h3 id="väyrynens-argument-against-semantic-views">Väyrynen’s Argument Against Semantic Views</h3>
+<p>I’ll start with a few questions I have about what is going on in the argument against the ‘semantic view,’ and then move onto some objections we might have to this argument.</p>
+<ul>
+<li>What is a T-objector? In particular, is it someone who objects to the theory behind T, or is it someone who objects to the term T?</li>
+</ul>
+<p>In class I was saying it was the former - someone who objects to the theory. But when I was reading more carefully for this week’s prep, there were certainly places where it looked like it was the latter. Still, I think, <em>think</em>, that the former reading is correct. The main reason for this is that when the term is introduced, it is credited to <span class="citation" data-cites="Kyle2013"><a href="#ref-Kyle2013" role="doc-biblioref">Kyle</a> (<a href="#ref-Kyle2013" role="doc-biblioref">2013</a>)</span>. And in that paper it is unambiguous that the term means someone who objects to the theory behind T.</p>
+<p>Why is it so confusing though? Well, because it’s part of the positive theory we’re going to get that people who disagree with the theory will typically be unhappy using the term. So in fact there will be, according to the positive theory, a massive overlap between the two groups. But even if that’s true, I think we’re meant to read it so by definition T-objectors object to the theory, and in practice T-objectors object to the term.</p>
+<ul>
+<li>What properties of T-objectors are meant to cause problems for the rival views?</li>
+</ul>
+<p>I’d really like to have a clear answer here, but I think I don’t. And that’s because I think there isn’t really meant to be any one snappy feature that is meant to be problematic for the rival view. So let’s circle round to it. Let’s use a different example from last time, ‘generous.’ (This is one that Kyle uses.)</p>
+<p>A simple problem for a semantic view of ‘generous’ (on which it entails good in some way) is that someone who denies that it is good to be generous will typically not deny “X is generous.” (Assume X does things that we normally describe as generous, but the objector thinks these are not good.) That’s easy to explain. There are lots of cases where we think sentence <em>S</em> entails proposition <em>p</em>, but someone who denies <em>p</em> won’t simply assert <em>S</em> with a negation slotted in somewhere.</p>
+<p>Nor is the problem simply that the objectors won’t use the word ‘generous.’ That would also be easy to explain. If you think there is a term that non-conservatively extends the inferential logic of the language, and some of the new inferences are bad ones, you’ll not want to use it at all. And that would be a simple model of what the objectors think.</p>
+<p>There are a couple of technical terms in that last paragraph that I should explain. In logic, a term is a ‘conservative’ extension of the language if adding it to the language only lets you prove new things involving the term. So if you have a language without ‘and,’ adding it lets you prove <em>A, B, therefore A and B</em>. But it doesn’t let you prove any new things not involving ‘and.’ On the other hand, the standard way to formulate classical logic (and a bunch of non-classical logics) is that adding ‘not’ is a non-conservative extension. In the language with ‘not,’ you can prove <em>If A then B, or if B then A</em>, which you couldn’t prove before, even though that doesn’t contain ‘not.’ Now there is a big dispute about whether it’s bad to have non-conservative terms in the language. But the standard view (the one that is built into the standard interpretation of classical logic) is that it’s fine, as long as those are good inferences.</p>
+<p>One way to read Foot is that she thinks thick terms are non-conservative extensions in this sense, but the good thick terms are good non-conservative extensions. So think about how she treats ‘rude.’ She thinks you can infer from “X was offensive” to “X was rude.” And you can infer from “X was rude” to “X was wrong.” And maybe your language didn’t allow the inference “X was offensive” to “X was wrong” antecedently. At least, it wasn’t an analytic inference. If you’re opposed in principle to non-conservative extensions (and I’m a little opposed in principle to non-conservative extensions) you’ll think this is very very bad. But the orthodox view is that this is fine, provided they are good inferences. And, extending the orthodox view, if a putative term is a non-conservative extension and the new extended inferences are bad, the term literally doesn’t have a meaning. (If this isn’t too much of a distraction, I can talk about ‘tonk’ for a while at this point.)</p>
+<p>So that’s to say, there is a very well worked out theory which would explain why T-objectors would never ever use the term T. But I think the argument is supposed to be that that theory isn’t right because they will <em>sometimes</em> use the term. And I think it is in things like rejecting (1) and accepting (2).</p>
+<ol type="1">
+<li>If X acted generously, X did something good in some way.</li>
+<li>Whether or not X acted generously, what X did was not good in any way.</li>
+</ol>
+<p>But one big question - are those the data to be explained? Are there other data that need explaining too?</p>
+<ul>
+<li>What assumptions are we making here about the relationship between meaning and competent use?</li>
+</ul>
+<p>I think Väyrynen wants to argue as follows.</p>
+<ol type="1">
+<li>Rival views say that it is part of the meaning of ‘generous’ that being generous is good (in a way).</li>
+<li>But some competent users of ‘generous’ use it in a way that would be incoherent if it is part of the meaning of ‘generous’ that being generous is good (in a way).</li>
+<li>So it is not part of the meaning of ‘generous’ that being generous is good (in a way).</li>
+</ol>
+<p>Now as it stands, that’s invalid. We need an extra premise.</p>
+<ul>
+<li>Competent users of a term do not use it in a way that is incoherent.</li>
+</ul>
+<p>And that premise is false. For example, some competent users of ‘if’ say that modus ponens is invalid. (My argument here draws heavily on <span class="citation" data-cites="Williamson2007-WILTPO-17"><a href="#ref-Williamson2007-WILTPO-17" role="doc-biblioref">Williamson</a> (<a href="#ref-Williamson2007-WILTPO-17" role="doc-biblioref">2007</a>)</span>. His example of such a user is Vann McGee, and in particular the discussion of modus ponens in his <span class="citation" data-cites="McGee1985">(<a href="#ref-McGee1985" role="doc-biblioref">1985</a>)</span>.) In general, any high level dispute about logic will involve competent users of a term using it incoherently. And we should wonder about Väyrynen’s opponent can do by comparing the objectors to deviant logicians. We certainly don’t want to argue that logic is incredibly weak because for just about any inference you can find <em>some</em> competent user who rejects the inference. As</p>
+<ul>
+<li>What exactly is meant to be wrong with the polysemy view?</li>
+</ul>
+<p>The polysemy view, as I’m understanding it, is that terms like ‘generous’ are ambiguous between a meaning on which the have moral entailments, and a meaning on which they don’t. Väyrynen has a very quick discussion of polysemy in section 4.1. And then whenever it comes up in the book he refers back to this. But the arguments there don’t seem incredibly strong. They involve assumptions about which meaning the term would have in different contexts that don’t seem at all like compulsory assumptions for the polysemy theorist to make.</p>
+<p>That said, it is worth spelling out the polysemy theory in some more detail. I’m saying ‘polysemy’ here not ‘ambiguity’ because no one thinks that ‘generous’ is ambiguous in the way that ‘bat’ or ‘bank’ are ambiguous. Whatever meaning plurality is there is like in ‘book’ or ‘newspaper.’ (Actually ‘book’ is very ambiguous, but I mean both of these have sort of type/token meaning pluralities.) So think about these two sentences.</p>
+<ul>
+<li>Brian bought a book.</li>
+<li>Peter bought a book.</li>
+</ul>
+<p>If Brian is a bookshop customer, and Peter is an editor at a press, both of these things may be true, but they mean different things. I now own something that weighs a few ounces and is worth a few dollars, Peter owns something with zero weight, but potentially a lot of value. We call this ‘polysemy’ not ‘ambiguity’ because while there are multiple meanings here, it’s not completely random that the two meanings go together. Indeed, you might think that these are the only real ambiguities. It’s not that ‘bat’ has two meanings, but that there are two English words with the same spelling/pronunciation. Relatedly, you’d be surprised to find a language where the translations of the two occurrences of ‘book’ had (radically) different spellings/pronunciations.</p>
+<p>But could this be what’s going on with ‘generous.’ On reflection, it doesn’t seem super plausible. The two meanings don’t have that kind of relation. There are better examples however. Think about something that has changed meaning over time. (Here is a list of 20 such words from the Dean of LSA - <a href="https://ideas.ted.com/20-words-that-once-meant-something-very-different/" class="uri">https://ideas.ted.com/20-words-that-once-meant-something-very-different/</a>.) During the meaning change, it presumably had two meanings. But meaning changes are typically not random, though they do occasionally involve reversing polarity. So these will be cases of polysemy, not ambiguity.</p>
+<p>And that’s one way to think about about the T-objectors. They think the meaning of the term should change. Sometimes they will push that forward by using the term with the intended new meaning. But more often they will not use the term, because it will be hard for others to know that they intend to use it with a non-standard meaning. I don’t really see how that’s a worse explanation than what Väyrynen offers, though to be fair I’m not 100% sure what the data is we’re supposed to explain.</p>
+<ul>
+<li>Do these terms pass standard tests for polysemy/ambiguity?</li>
+</ul>
+<p>The standard way to test whether a term is ambiguous is to get an instance of the term in a sentence where it is meant to do double-duty, and see if a single token can carry both meanings. So if I own a flying mammal, and you own something to hit baseballs with, it’s wrong to say</p>
+<ul>
+<li>You and I own bats.</li>
+</ul>
+<p>Or at least it’s a bit off. To really see the force of the test, imagine a native Catalan speaker who thinks the English word ‘cousin’ is <em>ambiguous</em> between cosí and cosina. We can show they are wrong by noting that the following is a perfectly good sentence of English.</p>
+<ul>
+<li>I have two cousins: Alice and Paul.</li>
+</ul>
+<p>So how do we apply this to ‘generous.’ It’s a bit tricky, since we can’t really have two instances in the different extensions. The closest I could get is the following. Francis thinks selfishness is bad, and Ayn thinks it is good. They both utter the words “Brian is selfish.” Is this something we can report?</p>
+<ul>
+<li>Francis and Ayn said that Brian is selfish.</li>
+</ul>
+<p>It sort of sounds ok to me, which I guess is evidence against the polysemy theory. But I’m not sure that either (a) that it really is bad, or (b) that it is particularly strong evidence, since we had to embed it in a ‘said that’ operator.</p>
+<h3 id="väyrynens-positive-view">Väyrynen’s Positive View</h3>
+<p>As I understand it, Väyrynen’s view has two components. He agrees with his opponents that a typical utterance of “Brian is generous” suggests that (the speaker believes that) Brian is good in some way. But he wants to say two things about this implication.</p>
+<ul>
+<li>It is a conversational implicature, not something that’s part of the meaning of ‘generous.’</li>
+<li>It is not-at-issue.</li>
+</ul>
+<p>Let’s go through these in turn.</p>
+<p>Conversational implicatures, in the sense made famous by <span class="citation" data-cites="Grice1989"><a href="#ref-Grice1989" role="doc-biblioref">Grice</a> (<a href="#ref-Grice1989" role="doc-biblioref">1989</a>)</span>, are things you can infer from the fact that a speaker said what they did, and are being cooperative, but which are not part of the meaning. So if someone says “Brian fell out of bed and bumped his head,” that doesn’t strictly speaking mean that I bumped my head while falling out of bed. (At least on standard theories of how the sentence works - this is actually a tricky case.) The sentence would be literally true if I bumped my head on the staircase coming up to bed, then disoriented by the sore head fell out of bed the next morning. But it would be horribly misleading to use these words to communicate that that’s what happened. If the speaker is being cooperative, they would only say this if I bumped my head in the fall. So that’s an implicature of the sentence. Once you get the idea, you see implicatures everywhere you look.</p>
+<p>Not-at-issue content is a bit trickier. It’s content that is at least part of what the speaker means to communicate, but which isn’t front and center. So it would be weird to say “That’s not true” or “That’s not what happened” or anything like that, because the ‘that’ wouldn’t pick out the right thing. So think about this sentence (from the Nightvale pilot).</p>
+<ul>
+<li>Old Woman Josie, out near the car lot, says the Angels revealed themselves to her.</li>
+</ul>
+<p>The at-issue content is that Josie made this report about the Angels. If she didn’t say that, it would be easy to object to the sentence. But it’s not quite so clear that it is part of the at-issue content that Josie is old, or a woman, or out near the car lot. Think about how you’d respond to the sentence if you accepted everything in the sentence except one of those three things.</p>
+<p>So now we get to the striking part of Väyrynen’s theory - the moral valence of a thick term is both an implicature and not-at-issue. This is a bit funny, since paradigm implicatures are at-issue. But it’s not too hard to come up with examples where you get both. In fact, you can get some that look a lot like what Väyrynen wants. Think about using technical terms from a subject that people have <em>views</em> about whether you should care about it. So imagine some using some arcane basketball stats to describe Giannis Antetokounmpo’s performance in the Finals last summer, or saying what David Chalmers’s h-index is. This implicates that you think those statistics are important. But this implicature is not-at-issue; it would feel like changing the subject for a hearer to object to even using the terms. And note that the objector certainly couldn’t object by <em>denying</em> what you said.</p>
+<p>That’s what Väyrynen thinks is going on with thick terms. They are like arcane stats, and the very use of them reflects a way of looking at the world that some might find objectionable. But the people who do find them objectionable won’t want to deny the claims made by the users. Nor will they never use the term, as if they were taboo or inconsistent terms. They will use the terms in saying, for instance, why they don’t approve of the theory behind them.</p>
+<p>Is this a good account? Let’s go over that in class. What I want to end the notes with is a bit of a discussion of where this has left us.</p>
+<h3 id="four-big-questions">Four Big Questions</h3>
+<ol type="1">
+<li>Is moral realism, either of some fairly spooky kind, or some more reductive kind, true, or is some kind of anti-realism (meaning here non-cognitivism) true?</li>
+<li>Is there a sharp fact/value distinction?</li>
+<li>Are thin terms or thick terms more central to moral philosophy as it should be done, or are they equally important?</li>
+<li>Do thick terms have their evaluative direction as part of their meaning, or are they just descriptive terms that are usually associated with evaluations?</li>
+</ol>
+<p>One big way that thick terms entered philosophy was because they were thought to tell on 2, and hence on 1. The best theory of thick terms, Foot argued, implied a negative answer to 2. And a negative answer to 2 implies some kind of realist answer to 1.</p>
+<p>But note how one-directional this is. You can have as strong a realism as you like, and pair that with either having a sharp fact/value distinction (as in Moore), or a not at all sharp one (Murdoch). It’s just that certain kinds of anti-realism are incompatible with there not being a distinction.</p>
+<p>Once thick terms are on the table, a lot of other questions naturally arise. We haven’t made it a big focus yet (though it will become more of a focus over the rest of the term), but 3 is a really fascinating question. I touched on it a little last week in the discussion of integrity and honesty, and that led to a really interesting discussion in class I thought.</p>
+<p>Finally, it’s worth noting that 4, which is the organising question of Väyrynen’s book, stands in an odd relation to the rest of the questions. We’ve seen people who have just about every possible combination of answers to the first 3 questions give an affirmative answer to the last question. And if you have a negative answer to the last question, that doesn’t entail anything about the first 2 questions. At most it undermines some arguments for particular answers to the first 2. But presumably it requires you to say that thin terms are more important to moral philosophy, since thick terms are not part of moral philosophy at all!</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Grice1989" class="csl-entry" role="doc-biblioentry">
+Grice, H. Paul. 1989. <em>Studies in the Way of Words</em>. Cambridge, MA.: Harvard University Press.
+</div>
+<div id="ref-Kyle2013" class="csl-entry" role="doc-biblioentry">
+Kyle, Brent G. 2013. <span>“How Are Thick Terms Evaluative.”</span> <em>Philosophers’ Imprint</em> 13 (1): 1–20.
+</div>
+<div id="ref-McGee1985" class="csl-entry" role="doc-biblioentry">
+McGee, Vann. 1985. <span>“A Counterexample to Modus Ponens.”</span> <em>Journal of Philosophy</em> 82 (9): 462–71. <a href="https://doi.org/10.2307/2026276">https://doi.org/10.2307/2026276</a>.
+</div>
+<div id="ref-Williamson2007-WILTPO-17" class="csl-entry" role="doc-biblioentry">
+Williamson, Timothy. 2007. <em><span class="nocase">The Philosophy of Philosophy</span></em>. Blackwell.
+</div>
+</div>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
