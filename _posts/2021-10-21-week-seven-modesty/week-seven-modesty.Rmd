@@ -5,7 +5,7 @@ description: |
 author:
   - name: Brian Weatherson
     url: http://brian.weatherson.org
-date: 10-11-2021
+date: 10-25-2021
 bibliography: ../../../articles/Rbib.bib
 preview: driver.jpg
 categories:
@@ -21,7 +21,7 @@ output:
 
 ### Organising Questions
 
-1. Is Modesty purely mental, purely behavioural, or some mixture of the two?
+1. Is Modesty purely mental, purely behavioural, or perhaps some mixture of the two?
 2. Does Modesty require an asymmetry in how one thinks of oneself versus others?
 3. Are Modesty and Humility the same thing, or are they different things?
 4. Is Modesty about various domains (e.g., about one's ability at chess) more fundamental than Modesty _tout court_, or is this 'absolute' Modesty the fundamental notion - or neither?
