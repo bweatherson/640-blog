@@ -4,9 +4,9 @@ description: |
   This is the syllabus for the course. It includes links to the papers that we will read.
 author:
   - name: Brian Weatherson
-    url: http://brian.weatherson.org
-    affiliation: University of Michigan
-    affiliation_url: https://lsa.umich.edu/philosophy
+url: http://brian.weatherson.org
+affiliation: University of Michigan
+affiliation_url: https://lsa.umich.edu/philosophy
 date: 08-24-2021
 bibliography: ../../../articles/Rbib.bib
 preview: angell_phil.jpg
@@ -14,7 +14,7 @@ categories:
   - syllabus
 output:
   distill::distill_article:
-    self_contained: false
+self_contained: false
 ---
 
 <div id="course-description" class="section level1">
@@ -206,40 +206,38 @@ Photo by [VasenkaPhotography](https://www.flickr.com/photos/40774255@N07) via [C
 <li>Hannah Tierney, <a href="https://doi.org/10.1093/analys/anaa074">Hypercrisy and standing to self-blame</a>.</li>
 <li>Kasper Lippert-Rasmussen, <a href="https://doi.org/10.1093/analys/anaa009">Why the moral equality account of the hypocrite’s lack of standing to blame fails</a>.</li>
 </ul>
-    <div id="week-12-1115-open" class="section level2">
-        <h2>Week 12, 11/15: Honesty</h2>
-        <ul>
-            <li>Christian Miller, "<a class="inline_disabled" href="https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=4834027&amp;ppg=9" target="_blank" rel="noopener">Honesty</a>"</li>
-        </ul>
-        <p><em>Recommended</em></p>
-        <ul>
-            <li>Tara Smith, "<a class="inline_disabled" href="https://link-springer-com.proxy.lib.umich.edu/article/10.1023" target="_blank" rel="noopener">The Metaphysical Case for Honesty</a>"</li>
-            <li>Alan Wilson, "<a class="inline_disabled" href="https://onlinelibrary-wiley-com.proxy.lib.umich.edu/doi/10.1111/meta.12303" target="_blank" rel="noopener">Honesty as a Virtue</a>"</li>
-        </ul>
-        <div id="week-13-1122-open" class="section level2">
-            <h2>Week 13, 11/22: Empathy</h2>
-        </div>
-        <div id="week-14-1129-open" class="section level2"></div>
-        <ul>
-            <li>Olivia Bailey, "<a class="inline_disabled" href="https://philpapers.org/go.pl?id=BAIEWV&amp;proxyId=&amp;u=https%3A%2F%2Fdx.doi.org%2F10.1007%2Fs11229-021-03219-z" target="_blank" rel="noopener">Empathy with vicious perspectives? A puzzle about the moral limits of empathetic imagination</a>"</li>
-        </ul>
-        <p><em>Recommended</em></p>
-        <ul>
-            <li>Paul Bloom, "<a class="inline_disabled" href="https://www-sciencedirect-com.proxy.lib.umich.edu/science/article/pii/S1364661316301930" target="_blank" rel="noopener">Empathy and Its Discontents</a>"</li>
-            <li>Stephen Darwall, "<a class="inline_disabled" href="https://onlinelibrary-wiley-com.proxy.lib.umich.edu/doi/10.1111/j.2041-6962.2011.00054.x" target="_blank" rel="noopener">Being With</a>"</li>
-        </ul>
-        <p><em>Background</em></p>
-        <p>If you don't know anything about the imaginative resistance debates, which are relevant to Bailey's paper, a good place to start is Tamar Szab&oacute; Gendler's "<a class="publication-title" style="font-family: inherit; font-size: 1rem;" href="https://philpapers.org/rec/GENTPO-8" target="_blank" rel="noopener">The Puzzle of Imaginative Resistance</a>".</p>
-    </div>
-    <div id="week-14-1129-open" class="section level2">
-        <h2>Week 14, 11/29: Open-Mindedness</h2>
-        <div id="week-12-1115-open" class="section level2">
-            <ul>
-                <li>Jeremy Fantl, "<a class="inline_disabled external" href="https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=3055352&amp;ppg=45" target="_blank" rel="noopener"><span>A Defense of Dogmatism</span></a>"</li>
-                <li>Heather Battaly, "<a class="inline_disabled external" href="https://www.cambridge.org/core/journals/royal-institute-of-philosophy-supplements/article/abs/can-closedmindedness-be-an-intellectual-virtue/C728F2426605EFF87188F6A9748465FB" target="_blank" rel="noopener"><span>Can Closed-mindedness be an Intellectual Virtue?</span></a>"</li>
-            </ul>
-        </div>
-    </div>
+</div>
+<div id="week-12-1115-open" class="section level2">
+<h3>Week 12, 11/15: Honesty</h3>
+<ul>
+<li>Christian Miller, "<a class="inline_disabled" href="https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=4834027&amp;ppg=9" target="_blank" rel="noopener">Honesty</a>"</li>
+</ul>
+<p><em>Recommended</em></p>
+<ul>
+<li>Tara Smith, "<a class="inline_disabled" href="https://link-springer-com.proxy.lib.umich.edu/article/10.1023" target="_blank" rel="noopener">The Metaphysical Case for Honesty</a>"</li>
+<li>Alan Wilson, "<a class="inline_disabled" href="https://onlinelibrary-wiley-com.proxy.lib.umich.edu/doi/10.1111/meta.12303" target="_blank" rel="noopener">Honesty as a Virtue</a>"</li>
+</ul>
+<div id="week-13-1122-open" class="section level2">
+<h3>Week 13, 11/22: Empathy</h3>
+<ul>
+<li>Olivia Bailey, "<a class="inline_disabled" href="https://philpapers.org/go.pl?id=BAIEWV&amp;proxyId=&amp;u=https%3A%2F%2Fdx.doi.org%2F10.1007%2Fs11229-021-03219-z" target="_blank" rel="noopener">Empathy with vicious perspectives? A puzzle about the moral limits of empathetic imagination</a>"</li>
+</ul>
+<p><em>Recommended</em></p>
+<ul>
+<li>Paul Bloom, "<a class="inline_disabled" href="https://www-sciencedirect-com.proxy.lib.umich.edu/science/article/pii/S1364661316301930" target="_blank" rel="noopener">Empathy and Its Discontents</a>"</li>
+<li>Stephen Darwall, "<a class="inline_disabled" href="https://onlinelibrary-wiley-com.proxy.lib.umich.edu/doi/10.1111/j.2041-6962.2011.00054.x" target="_blank" rel="noopener">Being With</a>"</li>
+</ul>
+<p><em>Background</em></p>
+<p>If you don't know anything about the imaginative resistance debates, which are relevant to Bailey's paper, a good place to start is Tamar Szab&oacute; Gendler's "<a class="publication-title" style="font-family: inherit; font-size: 1rem;" href="https://philpapers.org/rec/GENTPO-8" target="_blank" rel="noopener">The Puzzle of Imaginative Resistance</a>".</p>
+</div>
+<div id="week-14-1129-open" class="section level2">
+<h3>Week 14, 11/29: Open-Mindedness</h3>
+<ul>
+<li>Jeremy Fantl, "<a class="inline_disabled external" href="https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=3055352&amp;ppg=45" target="_blank" rel="noopener"><span>A Defense of Dogmatism</span></a>"</li>
+<li>Heather Battaly, "<a class="inline_disabled external" href="https://www.cambridge.org/core/journals/royal-institute-of-philosophy-supplements/article/abs/can-closedmindedness-be-an-intellectual-virtue/C728F2426605EFF87188F6A9748465FB" target="_blank" rel="noopener"><span>Can Closed-mindedness be an Intellectual Virtue?</span></a>"</li>
+</ul>
+</div>
+</div>
 <div id="week-15-1206-review" class="section level2">
 <h3>Week 15, 12/06: Review</h3>
 <p>We’ll go over some themes from the course, and if anyone wants to do a presentation on their essay topic we can do some then. This is writing/grading time for most students, so we certainly won’t do new material. But I think there will be value in having a chance to review what we’ve covered, and for anyone to discuss things that came up when they were doing more reading for the short papers.

@@ -1,0 +1,125 @@
+---
+title: "Week Eight: Intellectual Humility"
+description: |
+  We continue our look at individual virtues with a discussion of intellectual humility. (This is much less worked out than normal - more a series of questions to prompt discussion than a full presentation - hopefully next week we'll resume normal service.)
+author:
+  - name: Brian Weatherson
+    url: http://brian.weatherson.org
+date: 11-01 -2021
+bibliography: ../../../articles/Rbib.bib
+preview: tanesini.jpg
+categories:
+  - modesty
+  - intellectual modesty
+  - intellectual humility
+  - virtues
+  - weekly notes
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+
+### Organising Questions
+
+1. What theories did we cover last time?
+2. Is intellectual humility a special case of humility? (Or even the primary case?)
+3. What benefits does humility bring?
+4. What benefits does intellectual humility bring?
+5. Is intellectual humility a mean notion, or a 'negative' notion?
+6. Is intellectual humility self-directed, or other-directed?
+7. Is intellectual humility primarily about beliefs, desires, actions, or some combination?
+
+### Background
+
+It's useful to have some examples of non-humility on the table. Two that I spent a fair bit of time thinking about while prepping this are Wittgenstein circa the _Tractatus_, and the character Zaphod Beeblebrox from _Hitchhikers' Guide to the Galaxy_. Both are paradigm examples of not being intellectually humble. And yet it wasn't clear to me that all the theories we looked at would agree - some of them would classify one or other other as humble. I can go over these at any length you like - Beeblebrox especially. (He plays a bigger role in my published work than Wittgenstein.)
+
+I could also go on literally as long as you could possibly want about the debates about peer disagreement, and how they relate to humility. But I will leave that up to whoever wants to ask about it. The short version is that I agree with basically everything Duncan Pritchard said. There are interesting connections between the debates. It looks like humility supports the conciliationist position at first. (And Stew Cohen has done a great job setting out why there looks like a connection.) But ultimately the right way to understand modesty (as essentially relational) supports non-conciliationism.
+
+### Theories from Last Time
+
+Last time we discussed four theories in class about what modesty might consist in.
+
+1. Being modest required being a good **team player**, or more generally acknowledging the ways in which external factors contributed to one's success.
+2. Being modest is a matter of not (excessively) attending to one's (relative) successes.
+3. Being modest is a matter of not having one's achievements compromise one's treating the people around one as equals.
+4. Being modest is a matter of not irrationally leaping to conclusions about one's qualities, combined perhaps with a disposition to not resolve rational uncertainty in a way (overly) favorable to oneself.
+
+These are all pretty interesting theories - in many ways more promising than some of the theories in the literature. One question for today is which of them (if any) look like good theories of intellectual modesty.
+
+* Pritchard's relational view has some affinities with the team player theory. (And my theory, which is pretty close to Pritchard's, has even more.)
+* The 'limitations owning' theory of Whitcomb et al (which wasn't on the readings but was widely discussed) is an interesting converse of the attention view. Rather than saying modesty  requires not attending to successes, it requires that modesty involves attending sufficiently to limitations.
+* The rational evaluation theory has a lot in common with Church's theory, though the version we discussed in class focussed on rational beliefs about the whole agent, not rational beliefs about individual beliefs.
+
+### Relations Between the Notions
+
+We discussed this a bit last time, but I wanted to have it flagged here. One thing that came through a lot of the readings was that a lot of the authors thought that it wasn't likely that intellectual humility (or modesty) was a special case of humility (or modesty). Some of them thought that it was a theoretical term introduced by philosophers. **Do you agree?**
+
+Among all the things I read, there seemed to be a universal view that Driver's view couldn't be right *as a theory of intellectual humility*. The reasoning seemed to be roughly this.
+
+1. Intellectual humility is an intellectual virtue.
+2. False beliefs cannot constitute intellectual virtues.
+3. Driver's view (translated into a view about intellectual humility) says that false beliefs constitute virtues.
+4. So Driver's view (translated into a view about intellectual humility) is false.
+
+I guess that sounds like a good argument, but I wanted to set it out clearly.
+
+### Benefits of Humility (and Intellectual Humility)
+
+One of the benefits that everyone cites as a reason for taking humility to be a virtue is that it avoids sparking jealousy. This feels like a funny reason to me for something to be a virtue. I can see why Driver thinks this works - she's basically a consequentialist who thinks that a virtue just is a stable character trait that typically produces good consequences. But for the rest of us, there are two big questions to ask.
+
+1. Does modesty have these good consequences?
+2. Does the fact that a character trait produce good consequences mean that it is a virtue?
+
+The latter seems particularly unlikely to me. The trait of not being way better than everyone else at a sport produces good consequences. Especially in individual sports, people can lose interest if someone is way better than the rest. It's fun if the game is a bit competitive. But I wouldn't call it virtuous to occasionally lose.
+
+The benefits of intellectual humility are a little more diffuse. But I think we can get three ideas of what they might be out of the discussions.
+
+One big one is that it humility might be required for rationality. It's good to have correct beliefs about oneself. It's good to notice when other people have evidence or reasons that you should attend to. It's probably good to 'own' one's limitations (whatever that comes to). These are parts of being rational. On this model the benefits of humility accrue to the humble person - they are rational.
+
+Michael Lynch argues that humility is necessary because people who are arrogant withdraw from public discourse. I thought this seemed very implausible. The most arrogant people I know literally cannot shut up.
+
+But there might be some other public benefits in the vicinity. There is something to the idea that a certain kind of respect for everyone encourages valuable kinds of public discourse, and that kind of discourse leads to both political and intellectual benefits.
+
+Still, we have to be on the lookout for the downsides of humility as well if we're doing this kind of consequentialist analysis. There are both historical and mathematical reasons for thinking the best intellectual community will have a lot of people in it who are not at all humble. Scientific revolutions often come about from people who didn't really have any prior justification for being as confident in their views as they were. And there are models of intellectual communities where if everyone is humble, we quickly get to an equilibrium, but it might not be the best equilibrium. It requires people who don't listen to everyone else to move from a sub-optimal equilibrium to an optimal one. (This is the 'Zollman effect', based on modeling of scientific communities by Kevin Zollman at CMU.)
+
+### A Virtuous Mean
+
+One issue that there seems to be more or less consensus on is that humility is a mean notion, not a negative notion. By that, I mean that humility is not just a matter of not being arrogant. It's a matter of being positioned appropriately between arrogance and something else. Some people call the 'something else' servility; Plakias calls it under-confidence.
+
+I'm just putting this here to check - do people think that humility is a mid-point notion like this, or is there something to be said for the definition of humility as the opposite of arrogance/over-confidence?
+
+### Self and Other
+
+Here's a big split in theories of humility. Some of them, most of them I'd guess, are self-directed. That is, humility is a matter of how one relates to oneself. For example,
+
+* Church thinks that humility is a matter of having reasonable beliefs about the reasonableness of **your** beliefs.
+* Tanesini thinks that humility is having the right kind of attitude (by which she roughly means evaluation) of **your** cognitive make-up.
+* Whitcomb et al think that humility is a matter of owning **your** limitations.
+* Lynch thinks that a key characteristic of the epistemically arrogant is believing that **they themselves** should be getting more epistemic credit and less epistemic blame.
+
+But one doesn't have to go that way.
+
+* Roberts and Wood think that humility is a matter of not seeking status, which is at least a somewhat socially directed view.
+* Pritchard thinks that epistemic humility involves a kind of openness to other viewpoints, and a willingness to listen to counterevidence.
+
+I want the distinction here to be based around what's central to, or definitive of, the trait, not what its consequences are. So Whitcomb et al argue (perhaps incorrectly) that typically a person who is humble in their sense will have certain other-directed attitudes. But this is at most a consequence of the view, not a definition of it. It still looks (to me at least) like a self-directed view.
+
+There is a challenge for any other-directed view, involving what to say about Robinson Crusoe cases. You might worry that Crusoe could be intellectually arrogant or humble, but doesn't have other directed attitudes. Still, Crusoe could have other directed dispositions, and if humility is a kind of disposition, then this case shouldn't be a problem.
+
+There is also a challenge for any kind of self-directed view, involving what to say about sceptical jerks. (Here's one place where early Wittgenstein is relevant.) The sceptical jerk I have in mind thinks that it's really hard to know anything, humans are really doing badly epistemically, but at least they are doing better than everyone else, because they have acknowledged their limitations. The self-directed views tend to treat these people as intellectually humble/modest. And it seems to me that they are anything but - they think they have nothing to learn from anyone else. For that reason I'm very much in favor of other-directed views. (I'm also in favor of other directed views about regular modesty, like the 'team player' and 'egalitarian' views we discussed last week.)
+
+### What Intellectual Humility Consists in
+
+There are a dizzying array of options on the table for what intellectual modesty might be. It's worth stepping back from some of the details and asking structurally about what part of our cognitive makeup intellectual modesty is supposed to be. The three most notable options are
+
+1. Beliefs
+2. Values
+3. Practices
+
+Church's view is a belief-centered view; it's a matter of having the right beliefs about your beliefs. Tanesini's view is, I think, a values centered view - it's about how you value your cognitive makeup, and why you do that. Pritchard's view is a practical view - it's about how you respond to learning that others disagree. (I would say that it's about inferential dispositions as much as practical ones, but this is a minor point.)
+
+Even before we get into the nitty gritty of which beliefs/values/practices are the relevant ones, it's worth thinking through which kind of thing is most likely to be the basis for an account of humility. My inclination is to favor an action-based view; someone can have all the beliefs and values you want, but if they act like a jerk they aren't particularly humble/modest. But what do you think, do you think our theories here should be based around actions?
