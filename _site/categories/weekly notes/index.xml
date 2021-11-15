@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:distill="https://distill.pub/journal/" version="2.0">
+  <channel>
+    <title>Vices - A Users Guide</title>
+    <link>http://brian.weatherson.org/640-F21/</link>
+    <atom:link href="http://brian.weatherson.org/640-F21/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Vices - A Users Guide
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Week Ten: Honesty</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
+      <link>http://brian.weatherson.org/640-F21/posts/2021-11-11-week-ten-honesty</link>
+      <description>We continue our look at individual virtues with a discussion of honesty. There isn't much work on this, so we're focussing on Christian Miller's theory.</description>
+      <category>honesty</category>
+      <category>virtues</category>
+      <category>weekly notes</category>
+      <guid>http://brian.weatherson.org/640-F21/posts/2021-11-11-week-ten-honesty</guid>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-11-11-week-ten-honesty/honesty.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Week Eight: Intellectual Humility</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
+      <link>http://brian.weatherson.org/640-F21/posts/2021-11-01-week-eight-intellectual-humility</link>
+      <description>We continue our look at individual virtues with a discussion of intellectual humility. (This is much less worked out than normal - more a series of questions to prompt discussion than a full presentation - hopefully next week we'll resume normal service.)</description>
+      <category>modesty</category>
+      <category>intellectual modesty</category>
+      <category>intellectual humility</category>
+      <category>virtues</category>
+      <category>weekly notes</category>
+      <guid>http://brian.weatherson.org/640-F21/posts/2021-11-01-week-eight-intellectual-humility</guid>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-11-01-week-eight-intellectual-humility/tanesini.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Week Three: Williams</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
+      <link>http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams</link>
+      <description>A look at the role thick concepts play in Ethics and the Limits of Philosophy, with a special focus on just what distinction in the vague vicinity of the fact/value distinction is viable, and how thick concepts do and don't complicate it.</description>
+      <category>relativism</category>
+      <category>fact/value distinction</category>
+      <category>weekly notes</category>
+      <guid>http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams</guid>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-09-18-week-three-williams/williams.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Week Two: Moral Arguments</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
+      <link>http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments</link>
+      <description>We'll start by looking at Arthur Prior's formal arguments against the 'No Ought from an Is' principle, and some contemporary responses to them. Then the bulk of the time will be looking at Philippa Foot's 1958 paper Moral Arguments. She also objects to 'No Ought from an Is', using a particular thick concept - rudeness - in her main example.</description>
+      <category>moral arguments</category>
+      <category>fact/value distinction</category>
+      <category>rudeness</category>
+      <category>weekly notes</category>
+      <guid>http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments</guid>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-09-08-week-two-moral-arguments/foot.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Week One</title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Weatherson</dc:creator>
+      <link>http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one</link>
+      <description>I start by introducing some examples of the kinds of terms that will be at the center of our attention for the course. Then I look at some failed attempts to provide a characterisation of this class. I introduce two philosophical disputes that thick terms are central to, one concerning moral motivation, another concerning the nature of moral attitudes. The second has been the most important, so I spend a bit of time going over it, including going back to the origins of 20th century meta-ethics in G. E. Moore's Principia Ethica.</description>
+      <category>descriptive equivalence</category>
+      <category>separation</category>
+      <category>non-cognitivism</category>
+      <category>moral motivation</category>
+      <category>open question argument</category>
+      <category>weekly notes</category>
+      <guid>http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one</guid>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://brian.weatherson.org/640-F21/posts/2021-08-25-week-one/moore.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
